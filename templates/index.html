@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    <link rel='stylesheet'
+          type='text/css' href="{{ url_for('static', filename='style.css') }}">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1>{{title}}</h1>
+
+    <!-- live data retrival kline -->
+    <h3>Live Closing Price Data</h3>
+    <div id="kline"></div>
+
+    <!-- data chart from trading view lightweight -->
+    <h3>Candlestick Chart</h3>
+    <div id="chart"></div>
+
+    <!-- currency purchase area -->
+    <div id="buy-currency">
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            {% for message in messages %}
+              <div
+                      style="position: inline-block; background: red; color: darkred; padding: 0.5em">{{
+                  message }}</div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+
+        <!-- buy form -->
+        <form action="/buy" method="post">
+            <input type="text" name='quantity' placeholder='e.g. 0.001'
+                   value='quantity' id="quantity">
+            <select id="symbol" name="symbol">
+                {% for symbol in symbols %}
+                <option>{{symbol}}</option>
+                {% endfor %}
+            </select>
+            <input type="submit" value="buy" name="buy">
+        </form>
+
+    </div>
+
+
+    <div id="balances">
+        {% for i in balances %}
+        <tr><td>{{i['asset']}}</td></tr>
+        <tr><td>{{i['free']}}</td></tr>
+        <br>
+        {% endfor %}
+    </div>
+
+    <h3>Settings</h3>
+    <div id="settings">
+        <input type="checkbox" name="" id=""> RSI <input type="text" name="rsi_length"
+        id="rsi_length" placeholder="14">
+        <input type="text" name="rsi_oversold" id="rsi_oversold" placeholder='30'>
+        <input type="text" name="rsi_overbought" id="rsi_overbought" placeholder='70'>
+    </div>
+
+
+    <script>
+        //var binanceSocket = new WebSocket("wss://stream.binance
+       // .com:9443/ws/btcusdt@kline_5m");
+        //var klineDiv = document.getElementById("kline");
+
+        /*binanceSocket.onmessage = function (event) {
+            var messageObject = JSON.parse(event.data);
+            console.log(messageObject);
+            klineDiv.append(messageObject.k.o + " ");
+        }*/
+
+    </script>
+    <script src="{{ url_for('static', filename='chart.js') }}"></script>
+</body>
+</html>
