@@ -25,8 +25,7 @@ regex==2020.11.13
 requests==2.25.1
 service-identity==18.1.0
 six==1.15.0
-TA-Lib @ file:///C:/Users/brand/Downloads/TA_Lib-0.4.19-cp39-cp39-win_amd64.whl
-Twisted @ file:///C:/Users/brand/Downloads/Twisted-20.3.0-cp39-cp39-win_amd64.whl
+Twisted
 txaio==20.12.1
 tzlocal==2.1
 ujson==4.0.1
