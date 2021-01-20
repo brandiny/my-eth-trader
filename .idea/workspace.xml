@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8c9d4ef-9e01-402f-a8b9-8e8bdcfb14a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="d8c9d4ef-9e01-402f-a8b9-8e8bdcfb14a1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,6 +158,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="407" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611102136116">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="407" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1611102136116" />
     <state width="1259" height="204" key="GridCell.Tab.0.bottom" timestamp="1611022754649">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
