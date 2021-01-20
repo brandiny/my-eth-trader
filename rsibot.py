@@ -5,8 +5,8 @@ from binance.enums import *  # Imports global constants used in binance
 
 # Edit the Relative Strength Index (RSI) constants
 RSI_PERIOD = 14
-RSI_OVERBOUGHT = 70
-RSI_OVERSOLD = 30
+RSI_OVERBOUGHT = 75
+RSI_OVERSOLD = 25
 
 # Edit the MACD constants
 MACD_FASTPERIOD = 12
@@ -15,15 +15,16 @@ MACD_SIGNALPERIOD = 9
 
 # Change
 TRADE_SYMBOL = 'ETHEUR'
-TRADE_QUANTITY = 0.014
+BUY_QUANTITY = 0.014
+SELL_QUANTITY = 0
 
 # Binance Websocket References are @
 # https://github.com/binance/binance-spot-api-docs/blob/master/web-socket-streams.md
-SOCKET = "wss://stream.binance.com:9443/ws/{}@kline_5m".format(
+SOCKET = "wss://stream.binance.com:9443/ws/{}@kline_1m".format(
     TRADE_SYMBOL.lower())
 
 closes = []
-in_position = True  # In position = holding currency
+in_position = False  # In position = holding currency
 # macd_upwards = False        # MACD indicates upwards momentum
 # macd_downwards = False      # MACD indicates downwards momentum
 
@@ -60,7 +61,8 @@ def on_message(ws, message):
     global closes
     global in_position
     global client
-    global TRADE_QUANTITY
+    global BUY_QUANTITY
+    global SELL_QUANTITY
     json_message = json.loads(message)
 
     candle = json_message['k']
@@ -92,51 +94,47 @@ def on_message(ws, message):
             last_macd = macdsignal[-1]
             print("MACD: {}".format(macdsignal[-1]))
 
-            # Calculate optimum trade quantity
+            # Calculate optimum BUY trade quantity
             current_balance = float(
                 [i for i in client.get_account()['balances'] if
                  i['asset'] == 'EUR'][0]['free'])
             optimum_buy = float(current_balance) / float(close)
-            TRADE_QUANTITY = round(optimum_buy, 5) - 0.001
+            BUY_QUANTITY = round(optimum_buy, 5) - 0.001
 
-            # Detect upwards trends
-            '''
-            if macdsignal[-1] < 0 and macdsignal[-2] > 0:
-                print('Bear market crossing from {} to {}'.format(str(macdsignal[-2]), str(macdsignal[-1])))
-                macd_upwards = False
-                macd_downwards = True
+            # Calculate optimum SELL trade quantity
+            current_balance = float(
+                [i for i in client.get_account()['balances'] if
+                 i['asset'] == 'ETH'][0]['free'])
+            optimum_buy = float(current_balance) / float(close)
+            SELL_QUANTITY = round(optimum_buy, 5) - 0.001
 
-
-            if macdsignal[-1] > 0 and macdsignal[-2] < 0:
-                print('Bull market crossing from {} to {}'.format(str(macdsignal[-2]), str(macdsignal[-1])))
-                macd_upwards = True
-                macd_downwards = False
-            '''
+            # Get SMA
+            # fast_sma = talib.SMA(np_closes, timeperiod=7)
+            # print("SMA (7): ", fast_sma)
 
             print('rsi is overbought: ', last_rsi > RSI_OVERBOUGHT)
             print('rsi is oversold: ', last_rsi < RSI_OVERSOLD)
             print('in position: ', in_position)
-            print('trade quanitity: ', TRADE_QUANTITY)
+            print('buy quanitity: ', BUY_QUANTITY)
+            print('sell quanitity: ', SELL_QUANTITY)
 
-            if (last_rsi > RSI_OVERBOUGHT + 5) or (
-                    last_rsi > RSI_OVERBOUGHT and macdsignal > 4):
+            if (last_rsi > RSI_OVERBOUGHT):
                 if in_position:
                     print("Overbought! Sell!, sell!, sell!")
-                    order_succeeded = order(SIDE_SELL, TRADE_QUANTITY,
+                    order_succeeded = order(SIDE_SELL, SELL_QUANTITY,
                                             TRADE_SYMBOL)
                     if order_succeeded:
                         in_position = False
                 else:
                     print("It is overbought. We don't own any. Nothing to do.")
 
-            if (last_rsi < RSI_OVERSOLD - 5) or (
-                    last_rsi < RSI_OVERSOLD and macdsignal < -4):
+            if (last_rsi < RSI_OVERSOLD):
                 if in_position:
                     print(
                         "It is oversold, but you already own it and there is nothing to do")
                 else:
                     print("Oversold! Buy!, buy!, buy!")
-                    order_succeeded = order(SIDE_BUY, TRADE_QUANTITY,
+                    order_succeeded = order(SIDE_BUY, BUY_QUANTITY,
                                             TRADE_SYMBOL)
                     if order_succeeded:
                         in_position = True
@@ -145,9 +143,6 @@ def on_message(ws, message):
             json.dump(dump_data, f)
 
 
-# order_succeeded = order(SIDE_BUY, TRADE_QUANTITY, TRADE_SYMBOL)
-# print(order_succeeded)
-# in_position = True
 ws = websocket.WebSocketApp(SOCKET, on_open=on_open, on_close=on_close,
                             on_message=on_message)
 ws.run_forever()
