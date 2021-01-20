@@ -102,11 +102,11 @@ def on_message(ws, message):
             BUY_QUANTITY = round(optimum_buy, 5) - 0.001
 
             # Calculate optimum SELL trade quantity
-            current_balance = float(
+            current_balance2 = float(
                 [i for i in client.get_account()['balances'] if
                  i['asset'] == 'ETH'][0]['free'])
-            optimum_buy = float(current_balance) / float(close)
-            SELL_QUANTITY = round(optimum_buy, 5) - 0.001
+            optimum_buy2 = float(current_balance2)
+            SELL_QUANTITY = round(optimum_buy2, 5)
 
             # Get SMA
             # fast_sma = talib.SMA(np_closes, timeperiod=7)
