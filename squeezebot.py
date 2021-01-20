@@ -1,5 +1,6 @@
 import os, pandas, plotly
-import numpy as np
+import numpy
+import talib
 
-dataset = np.random(100)
-print(dataset)
+close = numpy.random.random(100)
+upperBB, middleBB, lowerBB = talib.BBANDS(close, timeperiod=20)
