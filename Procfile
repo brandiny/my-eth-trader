@@ -1,1 +1,1 @@
-web: gunicorn server:app
+worker: python rsibot.py
