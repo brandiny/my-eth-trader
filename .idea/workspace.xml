@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c9d4ef-9e01-402f-a8b9-8e8bdcfb14a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/squeezebot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rsibot.py" beforeDir="false" afterPath="$PROJECT_DIR$/rsibot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
       <recent name="C:\Users\brand\Desktop\PROJECTS\my-eth-trader\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.rsibot">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my-eth-trader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,6 +132,9 @@
       <module name="my-eth-trader" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -147,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.rsibot" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.get_data" />
         <item itemvalue="Python.ta" />
@@ -186,22 +190,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="407" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1611102136116" />
-    <state width="1259" height="208" key="GridCell.Tab.0.bottom" timestamp="1611125655585">
+    <state width="1259" height="216" key="GridCell.Tab.0.bottom" timestamp="1611183160292">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="208" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611125655585" />
-    <state width="1259" height="208" key="GridCell.Tab.0.center" timestamp="1611125655582">
+    <state width="1259" height="216" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611183160292" />
+    <state width="1259" height="216" key="GridCell.Tab.0.center" timestamp="1611183160292">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="208" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611125655582" />
-    <state width="1259" height="208" key="GridCell.Tab.0.left" timestamp="1611125655582">
+    <state width="1259" height="216" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611183160292" />
+    <state width="1259" height="216" key="GridCell.Tab.0.left" timestamp="1611183160292">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="208" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611125655582" />
-    <state width="1259" height="208" key="GridCell.Tab.0.right" timestamp="1611125655582">
+    <state width="1259" height="216" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611183160292" />
+    <state width="1259" height="216" key="GridCell.Tab.0.right" timestamp="1611183160292">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="208" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611125655582" />
+    <state width="1259" height="216" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611183160292" />
     <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1611022754649">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -218,10 +222,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1611022754649" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1611125172616">
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1611136461586">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1611125172616" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1611136461586" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1611125630639">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
