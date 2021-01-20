@@ -1,17 +1,23 @@
-binance
-flask
 attrs==20.3.0
 autobahn==20.12.3
 Automat==20.2.0
+backtrader==1.9.76.123
+binance==0.3
 certifi==2020.12.5
 cffi==1.14.4
 chardet==4.0.0
+click==7.1.2
 constantly==15.1.0
 cryptography==3.3.1
 dateparser==1.0.0
+Flask==1.1.2
+gunicorn==20.0.4
 hyperlink==21.0.0
 idna==2.10
 incremental==17.5.0
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
 numpy==1.19.5
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
@@ -25,10 +31,12 @@ regex==2020.11.13
 requests==2.25.1
 service-identity==18.1.0
 six==1.15.0
-Twisted
+TA-Lib @ file:///C:/Users/brand/Downloads/TA_Lib-0.4.19-cp39-cp39-win_amd64.whl
+Twisted @ file:///C:/Users/brand/Downloads/Twisted-20.3.0-cp39-cp39-win_amd64.whl
 txaio==20.12.1
 tzlocal==2.1
 ujson==4.0.1
 urllib3==1.26.2
 websocket-client==0.57.0
+Werkzeug==1.0.1
 zope.interface==5.2.0
