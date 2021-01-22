@@ -260,7 +260,7 @@ def on_message(ws, message):
             # For this strategy:
             #       - sell if in position and the momentum is turning
             #       - or if the trade price dips below the stop loss
-            if (momentum[-1] - momentum[-2] < 0 and in_position) or (close < STOP_LOSS):
+            if (momentum[-1] - momentum[-2] < -2 and in_position) or (close < STOP_LOSS):
                 print("Overbought! Sell!, sell!, sell!")
                 order_succeeded = order(SIDE_SELL, SELL_QUANTITY,
                                         TRADE_SYMBOL)
