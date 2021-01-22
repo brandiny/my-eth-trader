@@ -18,7 +18,7 @@ RSI_OVERSOLD = 25
 
 # Edit the EMA constants
 EMA_LONG_PERIOD = 13
-EMA_SHORT_PERIOD = 9
+EMA_SHORT_PERIOD = 8
 
 # Asset information
 # Buy and sell quantities are automatically calculated from account balances
@@ -111,7 +111,7 @@ def on_message(ws, message):
         dump_data['closes'] = closes[:]
 
         # If there is enough data to begin drawing conclusions
-        if len(closes) > 21:
+        if len(closes) > 13:
             # Cast the financial data to numpy arrays for efficiency
             np_closes = numpy.array(closes)
 
