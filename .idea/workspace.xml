@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c9d4ef-9e01-402f-a8b9-8e8bdcfb14a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttmbot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rsibot.py" beforeDir="false" afterPath="$PROJECT_DIR$/rsibot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/squeezebot.py" beforeDir="false" afterPath="$PROJECT_DIR$/squeezebot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +40,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brand\Desktop\PROJECTS\my-eth-trader" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\brand\Desktop\PROJECTS\my-eth-trader\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.squeezebot">
+  <component name="RunManager" selected="Python.ttmbot">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my-eth-trader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,27 +64,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my-eth-trader" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,13 +135,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ttmbot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my-eth-trader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ttmbot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.squeezebot" />
+        <item itemvalue="Python.ttmbot" />
         <item itemvalue="Python.rsibot" />
+        <item itemvalue="Python.squeezebot" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.get_data" />
       </list>
     </recent_temporary>
   </component>
@@ -188,22 +197,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="407" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1611102136116" />
-    <state width="1259" height="460" key="GridCell.Tab.0.bottom" timestamp="1611183322577">
+    <state width="1259" height="2" key="GridCell.Tab.0.bottom" timestamp="1611274486261">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="460" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611183322577" />
-    <state width="1259" height="460" key="GridCell.Tab.0.center" timestamp="1611183322577">
+    <state width="1259" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611274486261" />
+    <state width="1259" height="2" key="GridCell.Tab.0.center" timestamp="1611274486260">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="460" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611183322577" />
-    <state width="1259" height="460" key="GridCell.Tab.0.left" timestamp="1611183322576">
+    <state width="1259" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611274486260" />
+    <state width="1259" height="2" key="GridCell.Tab.0.left" timestamp="1611274486260">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="460" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611183322576" />
-    <state width="1259" height="460" key="GridCell.Tab.0.right" timestamp="1611183322577">
+    <state width="1259" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611274486260" />
+    <state width="1259" height="2" key="GridCell.Tab.0.right" timestamp="1611274486260">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="460" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611183322577" />
+    <state width="1259" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611274486260" />
     <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1611022754649">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -220,13 +229,17 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1611022754649" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1611272850802">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1611272850802" />
     <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1611136461586">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1611136461586" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1611125630639">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1611209683889">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1611125630639" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1611209683889" />
   </component>
 </project>

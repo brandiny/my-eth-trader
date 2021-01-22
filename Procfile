@@ -1,1 +1,1 @@
-worker: python rsibot.py
+worker: python ttmbot.py
