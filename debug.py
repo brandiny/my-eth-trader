@@ -74,6 +74,10 @@ MACD_FASTPERIOD = 12
 MACD_SLOWPERIOD = 26
 MACD_SIGNALPERIOD = 9
 
+# Edit the EMA constants
+EMA_LONG_PERIOD = 21
+EMA_SHORT_PERIOD = 8
+
 # Change
 TRADE_SYMBOL = 'ETHEUR'
 BUY_QUANTITY = 0.014
@@ -109,36 +113,18 @@ current_balance2 = float(
 optimum_buy2 = float(current_balance2)
 SELL_QUANTITY = round(optimum_buy2, 5)
 
-# Get Bollingers
-upperBandList, middleBandList, lowerBandList = talib.BBANDS(np_closes, timeperiod=20)
-upperBand = float(upperBandList[-1])
-middleBand = float(middleBandList[-1])
-lowerBand = float(lowerBandList[-1])
-
-# Get Keltners
-upperKCList, lowerKCList = returnKELTNERS(np_closes, np_highs, np_lows)
-upperKC = upperKCList[-1]
-lowerKC = lowerKCList[-1]
-
-# Do the squeeze
-is_squeeze = inSqueeze(upperBandList, lowerBandList, upperKCList, lowerKCList)
-is_squeeze = numpy.array(list(is_squeeze) + [True, False])
-# Get Momentum
-momentum = talib.MOM(np_closes)
+# Calculate Exponential Moving averages
+ema_long = talib.EMA(np_closes, timeperiod=EMA_LONG_PERIOD)
+ema_short = talib.EMA(np_closes, timeperiod=EMA_SHORT_PERIOD)
 
 print('RSI:  {}'.format(last_rsi))
 print("MACD: {}".format(macdsignal[-1]))
-print("UPPERKC: ", upperKC, "LOWERKC: ", lowerKC)
-print('UPPERBAND: ', upperBand, 'LOWERBAND: ', lowerBand)
-print('SQUEEZE: ', is_squeeze[-1])
-print("MOMENTUM: ", momentum[-1])
 print('rsi is overbought: ', last_rsi > RSI_OVERBOUGHT)
 print('rsi is oversold: ', last_rsi < RSI_OVERSOLD)
 print('buy quanitity: ', BUY_QUANTITY)
 print('sell quanitity: ', SELL_QUANTITY)
 print('stop loss: ', STOP_LOSS)
-print(is_squeeze[-1], is_squeeze[-6:-1], True in is_squeeze[-6:-1])
-print('exiting squeeze? ', (is_squeeze[-1] == False) and (True in
-                            is_squeeze[-6:-1]))
-print(is_squeeze)
-print('upwards momentum? ', (momentum[-1] > 0))
+print('ema long: ', ema_long)
+print('ema short: ', ema_short)
+print('bull cross occurring: ', ((ema_short[-2] < ema_long[-2]) and (ema_short[-1] > ema_long[-1])))
+print('bear cross occurring: ', ((ema_short[-2] > ema_long[-2]) and (ema_short[-1] < ema_long[-1])))

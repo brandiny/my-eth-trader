@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c9d4ef-9e01-402f-a8b9-8e8bdcfb14a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ttmbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttmbot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emabot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +38,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\brand\Desktop\PROJECTS\my-eth-trader" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\brand\Desktop\PROJECTS\my-eth-trader\data" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brand\Desktop\PROJECTS\my-eth-trader" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.ttmbot">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.emabot">
+    <configuration name="debug" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my-eth-trader" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,7 +58,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="emabot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my-eth-trader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/emabot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,27 +130,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my-eth-trader" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ttmbot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my-eth-trader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.emabot" />
+        <item itemvalue="Python.debug" />
         <item itemvalue="Python.ttmbot" />
         <item itemvalue="Python.rsibot" />
         <item itemvalue="Python.squeezebot" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -189,22 +192,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="407" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1611102136116" />
-    <state width="1259" height="2" key="GridCell.Tab.0.bottom" timestamp="1611278957616">
+    <state width="1259" height="2" key="GridCell.Tab.0.bottom" timestamp="1611344407597">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611278957616" />
-    <state width="1259" height="2" key="GridCell.Tab.0.center" timestamp="1611278957616">
+    <state width="1259" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611344407597" />
+    <state width="1259" height="2" key="GridCell.Tab.0.center" timestamp="1611344407596">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611278957616" />
-    <state width="1259" height="2" key="GridCell.Tab.0.left" timestamp="1611278957615">
+    <state width="1259" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611344407596" />
+    <state width="1259" height="2" key="GridCell.Tab.0.left" timestamp="1611344407596">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611278957615" />
-    <state width="1259" height="2" key="GridCell.Tab.0.right" timestamp="1611278957616">
+    <state width="1259" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611344407596" />
+    <state width="1259" height="2" key="GridCell.Tab.0.right" timestamp="1611344407597">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611278957616" />
+    <state width="1259" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611344407597" />
     <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1611022754649">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

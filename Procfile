@@ -1,1 +1,1 @@
-worker: python ttmbot.py
+worker: python emabot.py
