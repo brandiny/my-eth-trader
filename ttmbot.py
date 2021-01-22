@@ -103,6 +103,7 @@ test = inSqueeze(uB, lB, lKC, uKC)
 def order(side, quantity, symbol, order_type=ORDER_TYPE_MARKET):
     try:
         # Place order
+        quantity = round(quantity, 5)
         order_type_string = "BUY" if side == SIDE_BUY else "SELL"
         print("Sending {} order of {}{} ...".format(str(order_type_string),
                                                     str(symbol), str(quantity)))
