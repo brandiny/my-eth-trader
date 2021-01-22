@@ -17,8 +17,8 @@ RSI_OVERBOUGHT = 75
 RSI_OVERSOLD = 25
 
 # Edit the EMA constants
-EMA_LONG_PERIOD = 21
-EMA_SHORT_PERIOD = 8
+EMA_LONG_PERIOD = 13
+EMA_SHORT_PERIOD = 9
 
 # Asset information
 # Buy and sell quantities are automatically calculated from account balances
