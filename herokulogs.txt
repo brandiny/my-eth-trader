@@ -1,0 +1,1500 @@
+2021-01-22T02:00:00.467775+00:00 app[worker.1]: UPPERBAND:  939.3143552722258 LOWERBAND:  897.7606447277738
+2021-01-22T02:00:00.467836+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:00:00.467887+00:00 app[worker.1]: MOMENTUM:  7.399999999999977
+2021-01-22T02:00:00.467944+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:00:00.467998+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:00:00.468041+00:00 app[worker.1]: in position:  False
+2021-01-22T02:00:00.468088+00:00 app[worker.1]: buy quanitity:  0.01311
+2021-01-22T02:00:00.468132+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:00:00.468177+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:00:00.468221+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:00:00.468276+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:00:00.468323+00:00 app[worker.1]: 
+2021-01-22T02:01:01.011552+00:00 app[worker.1]: Candle closed at 932.75. High is at 933.44. Low is at 925.24
+2021-01-22T02:01:01.013433+00:00 app[worker.1]: RSI:  62.17275476842049
+2021-01-22T02:01:01.013607+00:00 app[worker.1]: MACD: 2.7504304598158433
+2021-01-22T02:01:01.691653+00:00 app[worker.1]: UPPERKC:  928.6927499999998 LOWERKC:  911.6572499999999
+2021-01-22T02:01:01.695196+00:00 app[worker.1]: UPPERBAND:  939.9897253325194 LOWERBAND:  900.3602746674803
+2021-01-22T02:01:01.695280+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:01:01.695343+00:00 app[worker.1]: MOMENTUM:  12.190000000000055
+2021-01-22T02:01:01.695398+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:01:01.695450+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:01:01.695489+00:00 app[worker.1]: in position:  False
+2021-01-22T02:01:01.695533+00:00 app[worker.1]: buy quanitity:  0.013000000000000001
+2021-01-22T02:01:01.695573+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:01:01.695613+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:01:01.695653+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:01:01.695706+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:01:01.695751+00:00 app[worker.1]: 
+2021-01-22T02:02:00.516391+00:00 app[worker.1]: Candle closed at 935.77. High is at 936.12. Low is at 931.22
+2021-01-22T02:02:00.523118+00:00 app[worker.1]: RSI:  64.44408475352328
+2021-01-22T02:02:00.523257+00:00 app[worker.1]: MACD: 3.135973988319777
+2021-01-22T02:02:00.912375+00:00 app[worker.1]: UPPERKC:  930.8787499999999 LOWERKC:  913.3452499999999
+2021-01-22T02:02:00.912473+00:00 app[worker.1]: UPPERBAND:  939.9758759512765 LOWERBAND:  904.2481240487232
+2021-01-22T02:02:00.912570+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:02:00.912613+00:00 app[worker.1]: MOMENTUM:  9.68999999999994
+2021-01-22T02:02:00.912708+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:02:00.912756+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:02:00.912832+00:00 app[worker.1]: in position:  False
+2021-01-22T02:02:00.912873+00:00 app[worker.1]: buy quanitity:  0.01295
+2021-01-22T02:02:00.912958+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:02:00.912999+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:02:00.913089+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:02:00.913145+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:02:00.913233+00:00 app[worker.1]: 
+2021-01-22T02:03:00.400613+00:00 app[worker.1]: Candle closed at 934.58. High is at 936.89. Low is at 932.75
+2021-01-22T02:03:00.403422+00:00 app[worker.1]: RSI:  62.8335531073807
+2021-01-22T02:03:00.405357+00:00 app[worker.1]: MACD: 3.4976329370173183
+2021-01-22T02:03:01.111233+00:00 app[worker.1]: UPPERKC:  932.5947500000001 LOWERKC:  915.1452500000001
+2021-01-22T02:03:01.111249+00:00 app[worker.1]: UPPERBAND:  939.1951636206933 LOWERBAND:  908.544836379307
+2021-01-22T02:03:01.111289+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:03:01.111322+00:00 app[worker.1]: MOMENTUM:  3.009999999999991
+2021-01-22T02:03:01.111365+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:03:01.111406+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:03:01.111436+00:00 app[worker.1]: in position:  False
+2021-01-22T02:03:01.111460+00:00 app[worker.1]: buy quanitity:  0.012969999999999999
+2021-01-22T02:03:01.111501+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:03:01.111539+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:03:01.111578+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:03:01.111627+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:03:01.111669+00:00 app[worker.1]: 
+2021-01-22T02:04:00.397907+00:00 app[worker.1]: Candle closed at 935.84. High is at 936.91. Low is at 933.75
+2021-01-22T02:04:00.398080+00:00 app[worker.1]: RSI:  63.869287548784136
+2021-01-22T02:04:00.398147+00:00 app[worker.1]: MACD: 3.8374934852503118
+2021-01-22T02:04:01.108694+00:00 app[worker.1]: UPPERKC:  933.5780000000001 LOWERKC:  916.0550000000002
+2021-01-22T02:04:01.108714+00:00 app[worker.1]: UPPERBAND:  940.6356355958916 LOWERBAND:  908.9973644041087
+2021-01-22T02:04:01.108744+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:04:01.108784+00:00 app[worker.1]: MOMENTUM:  4.330000000000041
+2021-01-22T02:04:01.108827+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:04:01.108870+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:04:01.108899+00:00 app[worker.1]: in position:  False
+2021-01-22T02:04:01.108934+00:00 app[worker.1]: buy quanitity:  0.01295
+2021-01-22T02:04:01.108967+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:04:01.108998+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:04:01.109036+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:04:01.109081+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:04:01.109116+00:00 app[worker.1]: 
+2021-01-22T02:05:02.587458+00:00 app[worker.1]: Candle closed at 929.03. High is at 935.17. Low is at 928.71
+2021-01-22T02:05:02.587684+00:00 app[worker.1]: RSI:  54.90975143480418
+2021-01-22T02:05:02.587761+00:00 app[worker.1]: MACD: 4.028479170298436
+2021-01-22T02:05:03.078748+00:00 app[worker.1]: UPPERKC:  933.3134999999999 LOWERKC:  917.9325
+2021-01-22T02:05:03.078818+00:00 app[worker.1]: UPPERBAND:  940.549265574557 LOWERBAND:  910.6967344254429
+2021-01-22T02:05:03.078868+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:05:03.079031+00:00 app[worker.1]: MOMENTUM:  4.029999999999973
+2021-01-22T02:05:03.079118+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:05:03.079159+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:05:03.080083+00:00 app[worker.1]: in position:  False
+2021-01-22T02:05:03.080153+00:00 app[worker.1]: buy quanitity:  0.013049999999999999
+2021-01-22T02:05:03.080191+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:05:03.080227+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:05:03.080297+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:05:03.080346+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:05:03.080415+00:00 app[worker.1]: 
+2021-01-22T02:06:00.288029+00:00 app[worker.1]: Candle closed at 923.73. High is at 928.77. Low is at 922.59
+2021-01-22T02:06:00.288239+00:00 app[worker.1]: RSI:  49.10229324012115
+2021-01-22T02:06:00.288339+00:00 app[worker.1]: MACD: 4.0224010666234875
+2021-01-22T02:06:00.702804+00:00 app[worker.1]: UPPERKC:  933.5697499999999 LOWERKC:  918.3132499999999
+2021-01-22T02:06:00.705606+00:00 app[worker.1]: UPPERBAND:  940.4138491874223 LOWERBAND:  911.4691508125775
+2021-01-22T02:06:00.705684+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:06:00.705727+00:00 app[worker.1]: MOMENTUM:  -2.409999999999968
+2021-01-22T02:06:00.705822+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:06:00.705868+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:06:00.705937+00:00 app[worker.1]: in position:  False
+2021-01-22T02:06:00.705973+00:00 app[worker.1]: buy quanitity:  0.01313
+2021-01-22T02:06:00.706053+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:06:00.706086+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:06:00.706120+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:06:00.706205+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:06:00.706258+00:00 app[worker.1]: 
+2021-01-22T02:07:00.395609+00:00 app[worker.1]: Candle closed at 919.9. High is at 925.0. Low is at 919.22
+2021-01-22T02:07:00.395783+00:00 app[worker.1]: RSI:  45.34758825109757
+2021-01-22T02:07:00.395847+00:00 app[worker.1]: MACD: 3.822852543390843
+2021-01-22T02:07:01.088239+00:00 app[worker.1]: UPPERKC:  934.1497499999999 LOWERKC:  918.70125
+2021-01-22T02:07:01.089159+00:00 app[worker.1]: UPPERBAND:  939.3242867259801 LOWERBAND:  913.5267132740198
+2021-01-22T02:07:01.089216+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:07:01.089263+00:00 app[worker.1]: MOMENTUM:  -10.56000000000006
+2021-01-22T02:07:01.089380+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:07:01.090744+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:07:01.090786+00:00 app[worker.1]: in position:  False
+2021-01-22T02:07:01.090829+00:00 app[worker.1]: buy quanitity:  0.01319
+2021-01-22T02:07:01.090868+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:07:01.090910+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:07:01.090951+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:07:01.091001+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:07:01.091045+00:00 app[worker.1]: 
+2021-01-22T02:08:02.591190+00:00 app[worker.1]: Candle closed at 921.25. High is at 921.55. Low is at 917.84
+2021-01-22T02:08:02.602636+00:00 app[worker.1]: RSI:  46.89812131313344
+2021-01-22T02:08:02.602868+00:00 app[worker.1]: MACD: 3.5253265799589646
+2021-01-22T02:08:03.294963+00:00 app[worker.1]: UPPERKC:  934.4719999999999 LOWERKC:  919.334
+2021-01-22T02:08:03.295088+00:00 app[worker.1]: UPPERBAND:  938.1926308178182 LOWERBAND:  915.6133691821816
+2021-01-22T02:08:03.295202+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:08:03.295258+00:00 app[worker.1]: MOMENTUM:  -7.0499999999999545
+2021-01-22T02:08:03.295367+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:08:03.295443+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:08:03.295502+00:00 app[worker.1]: in position:  False
+2021-01-22T02:08:03.295549+00:00 app[worker.1]: buy quanitity:  0.013170000000000001
+2021-01-22T02:08:03.295625+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:08:03.295669+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:08:03.295763+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:08:03.295845+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:08:03.295912+00:00 app[worker.1]: 
+2021-01-22T02:09:01.719372+00:00 app[worker.1]: Candle closed at 919.04. High is at 923.54. Low is at 917.8
+2021-01-22T02:09:01.719537+00:00 app[worker.1]: RSI:  44.651507440594926
+2021-01-22T02:09:01.719896+00:00 app[worker.1]: MACD: 3.1386928661548783
+2021-01-22T02:09:02.433530+00:00 app[worker.1]: UPPERKC:  934.4780000000001 LOWERKC:  919.547
+2021-01-22T02:09:02.433620+00:00 app[worker.1]: UPPERBAND:  937.9468767541438 LOWERBAND:  916.0781232458563
+2021-01-22T02:09:02.433678+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:09:02.433726+00:00 app[worker.1]: MOMENTUM:  -6.600000000000023
+2021-01-22T02:09:02.433774+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:09:02.433825+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:09:02.433866+00:00 app[worker.1]: in position:  False
+2021-01-22T02:09:02.433910+00:00 app[worker.1]: buy quanitity:  0.01321
+2021-01-22T02:09:02.433951+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:09:02.433994+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:09:02.434036+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:09:02.434090+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:09:02.434136+00:00 app[worker.1]: 
+2021-01-22T02:10:01.327904+00:00 app[worker.1]: Candle closed at 919.52. High is at 921.99. Low is at 918.41
+2021-01-22T02:10:01.328466+00:00 app[worker.1]: RSI:  45.26841780059036
+2021-01-22T02:10:01.328576+00:00 app[worker.1]: MACD: 2.716980522604872
+2021-01-22T02:10:01.719499+00:00 app[worker.1]: UPPERKC:  934.6237500000001 LOWERKC:  919.5682500000001
+2021-01-22T02:10:01.719586+00:00 app[worker.1]: UPPERBAND:  937.7716702834366 LOWERBAND:  916.4203297165636
+2021-01-22T02:10:01.719640+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:10:01.719690+00:00 app[worker.1]: MOMENTUM:  -5.730000000000018
+2021-01-22T02:10:01.719744+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:10:01.719795+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:10:01.719834+00:00 app[worker.1]: in position:  False
+2021-01-22T02:10:01.719872+00:00 app[worker.1]: buy quanitity:  0.0132
+2021-01-22T02:10:01.719913+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:10:01.719952+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:10:01.719993+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:10:01.720045+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:10:01.720099+00:00 app[worker.1]: 
+2021-01-22T02:11:00.247360+00:00 app[worker.1]: Candle closed at 926.8. High is at 927.02. Low is at 919.28
+2021-01-22T02:11:00.247848+00:00 app[worker.1]: RSI:  53.740158507611035
+2021-01-22T02:11:00.248098+00:00 app[worker.1]: MACD: 2.405344031360097
+2021-01-22T02:11:00.941360+00:00 app[worker.1]: UPPERKC:  935.0085 LOWERKC:  919.8075
+2021-01-22T02:11:00.941450+00:00 app[worker.1]: UPPERBAND:  937.6575962848158 LOWERBAND:  917.1584037151842
+2021-01-22T02:11:00.941490+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:11:00.941552+00:00 app[worker.1]: MOMENTUM:  -5.9500000000000455
+2021-01-22T02:11:00.941588+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:11:00.941639+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:11:00.941679+00:00 app[worker.1]: in position:  False
+2021-01-22T02:11:00.941708+00:00 app[worker.1]: buy quanitity:  0.013090000000000001
+2021-01-22T02:11:00.941735+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:11:00.941795+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:11:00.941822+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:11:00.941856+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:11:00.941920+00:00 app[worker.1]: 
+2021-01-22T02:12:00.084986+00:00 app[worker.1]: Candle closed at 932.27. High is at 932.36. Low is at 925.68
+2021-01-22T02:12:00.085666+00:00 app[worker.1]: RSI:  58.916470577730294
+2021-01-22T02:12:00.085773+00:00 app[worker.1]: MACD: 2.260825841314655
+2021-01-22T02:12:00.481027+00:00 app[worker.1]: UPPERKC:  935.3465 LOWERKC:  920.0885
+2021-01-22T02:12:00.483986+00:00 app[worker.1]: UPPERBAND:  938.160016698646 LOWERBAND:  917.2749833013539
+2021-01-22T02:12:00.484239+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:12:00.484897+00:00 app[worker.1]: MOMENTUM:  -3.5
+2021-01-22T02:12:00.484984+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:12:00.485302+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:12:00.485346+00:00 app[worker.1]: in position:  False
+2021-01-22T02:12:00.486182+00:00 app[worker.1]: buy quanitity:  0.013000000000000001
+2021-01-22T02:12:00.486352+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:12:00.486420+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:12:00.486483+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:12:00.486763+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:12:00.486854+00:00 app[worker.1]: 
+2021-01-22T02:13:00.929060+00:00 app[worker.1]: Candle closed at 932.79. High is at 932.92. Low is at 929.45
+2021-01-22T02:13:00.929193+00:00 app[worker.1]: RSI:  59.38451393883707
+2021-01-22T02:13:00.930929+00:00 app[worker.1]: MACD: 2.231773464054492
+2021-01-22T02:13:01.911780+00:00 app[worker.1]: UPPERKC:  935.328 LOWERKC:  920.229
+2021-01-22T02:13:01.911862+00:00 app[worker.1]: UPPERBAND:  938.3240664144546 LOWERBAND:  917.2329335855454
+2021-01-22T02:13:01.911916+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:13:01.911962+00:00 app[worker.1]: MOMENTUM:  -1.7900000000000773
+2021-01-22T02:13:01.912013+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:13:01.912064+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:13:01.912104+00:00 app[worker.1]: in position:  False
+2021-01-22T02:13:01.912148+00:00 app[worker.1]: buy quanitity:  0.013000000000000001
+2021-01-22T02:13:01.912188+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:13:01.912226+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:13:01.912265+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:13:01.912313+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:13:01.912357+00:00 app[worker.1]: 
+2021-01-22T02:14:00.579559+00:00 app[worker.1]: Candle closed at 942.85. High is at 944.0. Low is at 932.62
+2021-01-22T02:14:00.579741+00:00 app[worker.1]: RSI:  67.2129852264467
+2021-01-22T02:14:00.579812+00:00 app[worker.1]: MACD: 2.4320305562618794
+2021-01-22T02:14:00.961374+00:00 app[worker.1]: UPPERKC:  935.574 LOWERKC:  921.1170000000001
+2021-01-22T02:14:00.961396+00:00 app[worker.1]: UPPERBAND:  940.6973508330104 LOWERBAND:  915.9936491669896
+2021-01-22T02:14:00.961463+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:14:00.961501+00:00 app[worker.1]: MOMENTUM:  7.009999999999991
+2021-01-22T02:14:00.961589+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:14:00.961632+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:14:00.962036+00:00 app[worker.1]: in position:  False
+2021-01-22T02:14:00.962098+00:00 app[worker.1]: buy quanitity:  0.01285
+2021-01-22T02:14:00.962139+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:14:00.962225+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:14:00.962264+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:14:00.962353+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:14:00.962423+00:00 app[worker.1]: 
+2021-01-22T02:15:00.763756+00:00 app[worker.1]: Candle closed at 944.0. High is at 946.92. Low is at 937.45
+2021-01-22T02:15:00.763907+00:00 app[worker.1]: RSI:  67.9773566673399
+2021-01-22T02:15:00.770601+00:00 app[worker.1]: MACD: 2.7783210625468433
+2021-01-22T02:15:01.161452+00:00 app[worker.1]: UPPERKC:  937.02875 LOWERKC:  921.56225
+2021-01-22T02:15:01.161541+00:00 app[worker.1]: UPPERBAND:  943.2859402719096 LOWERBAND:  915.3050597280903
+2021-01-22T02:15:01.161597+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:15:01.161644+00:00 app[worker.1]: MOMENTUM:  14.970000000000027
+2021-01-22T02:15:01.161696+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:15:01.161747+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:15:01.161786+00:00 app[worker.1]: in position:  False
+2021-01-22T02:15:01.161829+00:00 app[worker.1]: buy quanitity:  0.012830000000000001
+2021-01-22T02:15:01.161871+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:15:01.161910+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:15:01.161951+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:15:01.162002+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:15:01.162049+00:00 app[worker.1]: 
+2021-01-22T02:16:00.415922+00:00 app[worker.1]: Candle closed at 939.44. High is at 946.3. Low is at 939.44
+2021-01-22T02:16:00.416658+00:00 app[worker.1]: RSI:  61.78942073919107
+2021-01-22T02:16:00.416763+00:00 app[worker.1]: MACD: 3.1189048706306317
+2021-01-22T02:16:00.801807+00:00 app[worker.1]: UPPERKC:  938.0079999999999 LOWERKC:  921.9129999999999
+2021-01-22T02:16:00.802147+00:00 app[worker.1]: UPPERBAND:  944.5397406867506 LOWERBAND:  915.3812593132492
+2021-01-22T02:16:00.802204+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:16:00.802251+00:00 app[worker.1]: MOMENTUM:  15.710000000000036
+2021-01-22T02:16:00.802305+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:16:00.802405+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:16:00.802411+00:00 app[worker.1]: in position:  False
+2021-01-22T02:16:00.802451+00:00 app[worker.1]: buy quanitity:  0.012899999999999998
+2021-01-22T02:16:00.802484+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:16:00.802517+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:16:00.802564+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:16:00.802601+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:16:00.802632+00:00 app[worker.1]: 
+2021-01-22T02:17:01.189054+00:00 app[worker.1]: Candle closed at 936.48. High is at 940.74. Low is at 935.68
+2021-01-22T02:17:01.189209+00:00 app[worker.1]: RSI:  58.07203559000933
+2021-01-22T02:17:01.189287+00:00 app[worker.1]: MACD: 3.38372417851639
+2021-01-22T02:17:01.615118+00:00 app[worker.1]: UPPERKC:  938.5939999999999 LOWERKC:  921.929
+2021-01-22T02:17:01.615151+00:00 app[worker.1]: UPPERBAND:  945.1155476302454 LOWERBAND:  915.4074523697545
+2021-01-22T02:17:01.617475+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:17:01.617482+00:00 app[worker.1]: MOMENTUM:  16.58000000000004
+2021-01-22T02:17:01.617529+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:17:01.617587+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:17:01.617629+00:00 app[worker.1]: in position:  False
+2021-01-22T02:17:01.617681+00:00 app[worker.1]: buy quanitity:  0.01294
+2021-01-22T02:17:01.617724+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:17:01.617769+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:17:01.617813+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:17:01.617869+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:17:01.617918+00:00 app[worker.1]: 
+2021-01-22T02:18:02.418144+00:00 app[worker.1]: Candle closed at 934.98. High is at 937.0. Low is at 934.11
+2021-01-22T02:18:02.419413+00:00 app[worker.1]: RSI:  56.21534320381137
+2021-01-22T02:18:02.419554+00:00 app[worker.1]: MACD: 3.5555296839763075
+2021-01-22T02:18:02.828945+00:00 app[worker.1]: UPPERKC:  939.0074999999999 LOWERKC:  922.1835000000001
+2021-01-22T02:18:02.835118+00:00 app[worker.1]: UPPERBAND:  945.5581153797025 LOWERBAND:  915.6328846202975
+2021-01-22T02:18:02.835217+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:18:02.835324+00:00 app[worker.1]: MOMENTUM:  13.730000000000018
+2021-01-22T02:18:02.835422+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:18:02.835476+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:18:02.835564+00:00 app[worker.1]: in position:  False
+2021-01-22T02:18:02.835613+00:00 app[worker.1]: buy quanitity:  0.01296
+2021-01-22T02:18:02.835710+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:18:02.835755+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:18:02.835846+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:18:02.835893+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:18:02.835975+00:00 app[worker.1]: 
+2021-01-22T02:19:00.874972+00:00 app[worker.1]: Candle closed at 937.92. High is at 942.25. Low is at 935.08
+2021-01-22T02:19:00.875082+00:00 app[worker.1]: RSI:  58.99881900991083
+2021-01-22T02:19:00.878584+00:00 app[worker.1]: MACD: 3.698831823107631
+2021-01-22T02:19:01.253288+00:00 app[worker.1]: UPPERKC:  939.53825 LOWERKC:  922.8807499999999
+2021-01-22T02:19:01.253310+00:00 app[worker.1]: UPPERBAND:  946.3154636899217 LOWERBAND:  916.1035363100782
+2021-01-22T02:19:01.253311+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:19:01.253331+00:00 app[worker.1]: MOMENTUM:  18.879999999999995
+2021-01-22T02:19:01.253380+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:19:01.253422+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:19:01.253452+00:00 app[worker.1]: in position:  False
+2021-01-22T02:19:01.253488+00:00 app[worker.1]: buy quanitity:  0.012920000000000001
+2021-01-22T02:19:01.253518+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:19:01.253555+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:19:01.253586+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:19:01.253629+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:19:01.253664+00:00 app[worker.1]: 
+2021-01-22T02:20:00.484724+00:00 app[worker.1]: Candle closed at 932.46. High is at 938.09. Low is at 932.46
+2021-01-22T02:20:00.484893+00:00 app[worker.1]: RSI:  52.30852240737593
+2021-01-22T02:20:00.485023+00:00 app[worker.1]: MACD: 3.721214972464616
+2021-01-22T02:20:00.881118+00:00 app[worker.1]: UPPERKC:  940.16275 LOWERKC:  922.9772499999999
+2021-01-22T02:20:00.881215+00:00 app[worker.1]: UPPERBAND:  946.4320294711436 LOWERBAND:  916.7079705288563
+2021-01-22T02:20:00.881271+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:20:00.881317+00:00 app[worker.1]: MOMENTUM:  12.940000000000055
+2021-01-22T02:20:00.881370+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:20:00.881420+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:20:00.881460+00:00 app[worker.1]: in position:  False
+2021-01-22T02:20:00.881504+00:00 app[worker.1]: buy quanitity:  0.013000000000000001
+2021-01-22T02:20:00.881544+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:20:00.881587+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:20:00.881630+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:20:00.881679+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:20:00.881727+00:00 app[worker.1]: 
+2021-01-22T02:21:00.427342+00:00 app[worker.1]: Candle closed at 934.65. High is at 937.04. Low is at 931.8
+2021-01-22T02:21:00.427972+00:00 app[worker.1]: RSI:  54.548107670545086
+2021-01-22T02:21:00.428114+00:00 app[worker.1]: MACD: 3.6930938492390117
+2021-01-22T02:21:00.802957+00:00 app[worker.1]: UPPERKC:  940.53 LOWERKC:  922.8
+2021-01-22T02:21:00.804340+00:00 app[worker.1]: UPPERBAND:  946.5801808571118 LOWERBAND:  916.7498191428881
+2021-01-22T02:21:00.804398+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:21:00.804445+00:00 app[worker.1]: MOMENTUM:  7.850000000000023
+2021-01-22T02:21:00.804498+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:21:00.804547+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:21:00.804586+00:00 app[worker.1]: in position:  False
+2021-01-22T02:21:00.804631+00:00 app[worker.1]: buy quanitity:  0.012969999999999999
+2021-01-22T02:21:00.804670+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:21:00.804710+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:21:00.804749+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:21:00.804799+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:21:00.804843+00:00 app[worker.1]: 
+2021-01-22T02:22:00.279255+00:00 app[worker.1]: Candle closed at 937.45. High is at 937.98. Low is at 933.52
+2021-01-22T02:22:00.279435+00:00 app[worker.1]: RSI:  57.32390359212667
+2021-01-22T02:22:00.279507+00:00 app[worker.1]: MACD: 3.671046838890316
+2021-01-22T02:22:00.662051+00:00 app[worker.1]: UPPERKC:  940.3919999999999 LOWERKC:  923.1060000000001
+2021-01-22T02:22:00.666508+00:00 app[worker.1]: UPPERBAND:  946.7742266538892 LOWERBAND:  916.7237733461109
+2021-01-22T02:22:00.666583+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:22:00.666637+00:00 app[worker.1]: MOMENTUM:  5.180000000000064
+2021-01-22T02:22:00.666696+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:22:00.666750+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:22:00.666791+00:00 app[worker.1]: in position:  False
+2021-01-22T02:22:00.666837+00:00 app[worker.1]: buy quanitity:  0.01293
+2021-01-22T02:22:00.666883+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:22:00.666927+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:22:00.666972+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:22:00.667027+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:22:00.667075+00:00 app[worker.1]: 
+2021-01-22T02:23:00.096822+00:00 app[worker.1]: Candle closed at 939.61. High is at 941.5. Low is at 936.41
+2021-01-22T02:23:00.097004+00:00 app[worker.1]: RSI:  59.396237209267476
+2021-01-22T02:23:00.097085+00:00 app[worker.1]: MACD: 3.6800571856704294
+2021-01-22T02:23:00.506453+00:00 app[worker.1]: UPPERKC:  940.6104999999999 LOWERKC:  923.3904999999999
+2021-01-22T02:23:00.506480+00:00 app[worker.1]: UPPERBAND:  947.3712702800506 LOWERBAND:  916.6297297199492
+2021-01-22T02:23:00.506481+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:23:00.506482+00:00 app[worker.1]: MOMENTUM:  6.82000000000005
+2021-01-22T02:23:00.506482+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:23:00.506483+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:23:00.506483+00:00 app[worker.1]: in position:  False
+2021-01-22T02:23:00.506484+00:00 app[worker.1]: buy quanitity:  0.012889999999999999
+2021-01-22T02:23:00.506484+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:23:00.506485+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:23:00.506485+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:23:00.506486+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:23:00.506486+00:00 app[worker.1]: 
+2021-01-22T02:24:00.661330+00:00 app[worker.1]: Candle closed at 935.84. High is at 939.61. Low is at 935.63
+2021-01-22T02:24:00.661518+00:00 app[worker.1]: RSI:  54.40125855161381
+2021-01-22T02:24:00.664336+00:00 app[worker.1]: MACD: 3.6395256020774536
+2021-01-22T02:24:01.050623+00:00 app[worker.1]: UPPERKC:  940.6817499999999 LOWERKC:  923.3192499999999
+2021-01-22T02:24:01.050637+00:00 app[worker.1]: UPPERBAND:  947.3712702800506 LOWERBAND:  916.6297297199492
+2021-01-22T02:24:01.050682+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:24:01.050724+00:00 app[worker.1]: MOMENTUM:  -7.009999999999991
+2021-01-22T02:24:01.050784+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:24:01.050788+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:24:01.050816+00:00 app[worker.1]: in position:  False
+2021-01-22T02:24:01.050852+00:00 app[worker.1]: buy quanitity:  0.01295
+2021-01-22T02:24:01.050891+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:24:01.050930+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:24:01.050935+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:24:01.050985+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:24:01.051020+00:00 app[worker.1]: 
+2021-01-22T02:25:00.114697+00:00 app[worker.1]: Candle closed at 933.66. High is at 936.2. Low is at 933.65
+2021-01-22T02:25:00.114955+00:00 app[worker.1]: RSI:  51.6787815532063
+2021-01-22T02:25:00.115065+00:00 app[worker.1]: MACD: 3.5269909870724505
+2021-01-22T02:25:00.816730+00:00 app[worker.1]: UPPERKC:  940.97475 LOWERKC:  923.48925
+2021-01-22T02:25:00.816902+00:00 app[worker.1]: UPPERBAND:  947.5562364899911 LOWERBAND:  916.9077635100089
+2021-01-22T02:25:00.816956+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:25:00.817002+00:00 app[worker.1]: MOMENTUM:  -10.340000000000032
+2021-01-22T02:25:00.817055+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:25:00.817110+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:25:00.817150+00:00 app[worker.1]: in position:  False
+2021-01-22T02:25:00.817199+00:00 app[worker.1]: buy quanitity:  0.012990000000000002
+2021-01-22T02:25:00.817245+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:25:00.817287+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:25:00.817331+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:25:00.817383+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:25:00.817425+00:00 app[worker.1]: 
+2021-01-22T02:26:00.217441+00:00 app[worker.1]: Candle closed at 937.13. High is at 938.09. Low is at 932.31
+2021-01-22T02:26:00.217598+00:00 app[worker.1]: RSI:  55.51744538072846
+2021-01-22T02:26:00.222564+00:00 app[worker.1]: MACD: 3.422548614847459
+2021-01-22T02:26:00.602102+00:00 app[worker.1]: UPPERKC:  941.3515 LOWERKC:  924.4525000000001
+2021-01-22T02:26:00.602724+00:00 app[worker.1]: UPPERBAND:  947.8478323287875 LOWERBAND:  917.9561676712126
+2021-01-22T02:26:00.602785+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:26:00.602834+00:00 app[worker.1]: MOMENTUM:  -2.310000000000059
+2021-01-22T02:26:00.602888+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:26:00.602939+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:26:00.602980+00:00 app[worker.1]: in position:  False
+2021-01-22T02:26:00.603025+00:00 app[worker.1]: buy quanitity:  0.01293
+2021-01-22T02:26:00.603069+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:26:00.603119+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:26:00.603163+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:26:00.603218+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:26:00.603264+00:00 app[worker.1]: 
+2021-01-22T02:27:02.294596+00:00 app[worker.1]: Candle closed at 941.42. High is at 942.27. Low is at 936.63
+2021-01-22T02:27:02.294953+00:00 app[worker.1]: RSI:  59.79514804711879
+2021-01-22T02:27:02.295107+00:00 app[worker.1]: MACD: 3.3892971091998687
+2021-01-22T02:27:02.996783+00:00 app[worker.1]: UPPERKC:  942.3974999999998 LOWERKC:  925.5584999999999
+2021-01-22T02:27:02.999497+00:00 app[worker.1]: UPPERBAND:  948.1005940960723 LOWERBAND:  919.8554059039274
+2021-01-22T02:27:02.999582+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:27:02.999699+00:00 app[worker.1]: MOMENTUM:  4.939999999999941
+2021-01-22T02:27:02.999931+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:27:02.999986+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:27:03.000262+00:00 app[worker.1]: in position:  False
+2021-01-22T02:27:03.000354+00:00 app[worker.1]: buy quanitity:  0.01287
+2021-01-22T02:27:03.000644+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:27:03.000869+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:27:03.000911+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:27:03.001013+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:27:03.001087+00:00 app[worker.1]: 
+2021-01-22T02:28:00.285907+00:00 app[worker.1]: Candle closed at 935.28. High is at 941.28. Low is at 934.35
+2021-01-22T02:28:00.286048+00:00 app[worker.1]: RSI:  52.03624991810207
+2021-01-22T02:28:00.290614+00:00 app[worker.1]: MACD: 3.2967247507419835
+2021-01-22T02:28:00.679180+00:00 app[worker.1]: UPPERKC:  943.0884999999998 LOWERKC:  926.2704999999999
+2021-01-22T02:28:00.679262+00:00 app[worker.1]: UPPERBAND:  947.5409889885211 LOWERBAND:  921.8180110114786
+2021-01-22T02:28:00.679315+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:28:00.679359+00:00 app[worker.1]: MOMENTUM:  0.2999999999999545
+2021-01-22T02:28:00.679408+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:28:00.679454+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:28:00.679489+00:00 app[worker.1]: in position:  False
+2021-01-22T02:28:00.679527+00:00 app[worker.1]: buy quanitity:  0.01296
+2021-01-22T02:28:00.679565+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:28:00.679604+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:28:00.679643+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:28:00.679691+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:28:00.679744+00:00 app[worker.1]: 
+2021-01-22T02:29:00.216967+00:00 app[worker.1]: Candle closed at 939.03. High is at 940.9. Low is at 934.7
+2021-01-22T02:29:00.217584+00:00 app[worker.1]: RSI:  55.82853446066738
+2021-01-22T02:29:00.217736+00:00 app[worker.1]: MACD: 3.2241391842406957
+2021-01-22T02:29:00.595602+00:00 app[worker.1]: UPPERKC:  944.3294999999997 LOWERKC:  927.0284999999998
+2021-01-22T02:29:00.595725+00:00 app[worker.1]: UPPERBAND:  946.4627134607176 LOWERBAND:  924.8952865392819
+2021-01-22T02:29:00.595827+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:29:00.595869+00:00 app[worker.1]: MOMENTUM:  1.1100000000000136
+2021-01-22T02:29:00.595959+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:29:00.596027+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:29:00.596081+00:00 app[worker.1]: in position:  False
+2021-01-22T02:29:00.596123+00:00 app[worker.1]: buy quanitity:  0.012910000000000001
+2021-01-22T02:29:00.596205+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:29:00.596245+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:29:00.596328+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:29:00.596379+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:29:00.596470+00:00 app[worker.1]: 
+2021-01-22T02:30:00.417630+00:00 app[worker.1]: Candle closed at 940.63. High is at 942.92. Low is at 938.6
+2021-01-22T02:30:00.418316+00:00 app[worker.1]: RSI:  57.38590472478855
+2021-01-22T02:30:00.418425+00:00 app[worker.1]: MACD: 3.18606460721712
+2021-01-22T02:30:00.863478+00:00 app[worker.1]: UPPERKC:  945.4194999999997 LOWERKC:  928.0494999999999
+2021-01-22T02:30:00.865055+00:00 app[worker.1]: UPPERBAND:  944.7664349475725 LOWERBAND:  928.7025650524271
+2021-01-22T02:30:00.865158+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:30:00.865209+00:00 app[worker.1]: MOMENTUM:  8.169999999999959
+2021-01-22T02:30:00.865282+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:30:00.865341+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:30:00.865460+00:00 app[worker.1]: in position:  False
+2021-01-22T02:30:00.865499+00:00 app[worker.1]: buy quanitity:  0.012879999999999999
+2021-01-22T02:30:00.865579+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:30:00.865617+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:30:00.865714+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:30:00.865760+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:30:00.865967+00:00 app[worker.1]: 
+2021-01-22T02:31:01.456018+00:00 app[worker.1]: Candle closed at 934.73. High is at 941.88. Low is at 934.73
+2021-01-22T02:31:01.456201+00:00 app[worker.1]: RSI:  50.30118861716068
+2021-01-22T02:31:01.456269+00:00 app[worker.1]: MACD: 3.070224042206531
+2021-01-22T02:31:02.146902+00:00 app[worker.1]: UPPERKC:  945.8714999999997 LOWERKC:  928.3904999999997
+2021-01-22T02:31:02.146990+00:00 app[worker.1]: UPPERBAND:  943.8353177134319 LOWERBAND:  930.4266822865676
+2021-01-22T02:31:02.147034+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:31:02.147088+00:00 app[worker.1]: MOMENTUM:  0.08000000000004093
+2021-01-22T02:31:02.148564+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:31:02.148607+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:31:02.148637+00:00 app[worker.1]: in position:  False
+2021-01-22T02:31:02.148670+00:00 app[worker.1]: buy quanitity:  0.012969999999999999
+2021-01-22T02:31:02.148699+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:31:02.148728+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:31:02.148758+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:31:02.148795+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:31:02.148826+00:00 app[worker.1]: 
+2021-01-22T02:32:00.405318+00:00 app[worker.1]: Candle closed at 941.71. High is at 942.06. Low is at 933.53
+2021-01-22T02:32:00.407198+00:00 app[worker.1]: RSI:  57.090641224903024
+2021-01-22T02:32:00.407344+00:00 app[worker.1]: MACD: 3.016077978065696
+2021-01-22T02:32:00.814037+00:00 app[worker.1]: UPPERKC:  946.2992499999997 LOWERKC:  928.9067499999998
+2021-01-22T02:32:00.814247+00:00 app[worker.1]: UPPERBAND:  944.2002967193141 LOWERBAND:  931.0057032806853
+2021-01-22T02:32:00.814307+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:32:00.814357+00:00 app[worker.1]: MOMENTUM:  4.259999999999991
+2021-01-22T02:32:00.814441+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:32:00.814496+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:32:00.814539+00:00 app[worker.1]: in position:  False
+2021-01-22T02:32:00.814585+00:00 app[worker.1]: buy quanitity:  0.01287
+2021-01-22T02:32:00.814630+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:32:00.814674+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:32:00.814719+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:32:00.814837+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:32:00.814878+00:00 app[worker.1]: 
+2021-01-22T02:33:00.098874+00:00 app[worker.1]: Candle closed at 945.27. High is at 945.28. Low is at 940.38
+2021-01-22T02:33:00.099760+00:00 app[worker.1]: RSI:  60.10221964069612
+2021-01-22T02:33:00.099863+00:00 app[worker.1]: MACD: 3.053362726999206
+2021-01-22T02:33:00.491159+00:00 app[worker.1]: UPPERKC:  947.0619999999997 LOWERKC:  929.3919999999996
+2021-01-22T02:33:00.491245+00:00 app[worker.1]: UPPERBAND:  945.2334544531017 LOWERBAND:  931.2205455468976
+2021-01-22T02:33:00.491387+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:33:00.491748+00:00 app[worker.1]: MOMENTUM:  5.659999999999968
+2021-01-22T02:33:00.491806+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:33:00.491905+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:33:00.492200+00:00 app[worker.1]: in position:  False
+2021-01-22T02:33:00.492250+00:00 app[worker.1]: buy quanitity:  0.012809999999999998
+2021-01-22T02:33:00.492294+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:33:00.492338+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:33:00.492383+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:33:00.492438+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:33:00.492485+00:00 app[worker.1]: 
+2021-01-22T02:34:00.778933+00:00 app[worker.1]: Candle closed at 944.38. High is at 945.43. Low is at 941.29
+2021-01-22T02:34:00.779223+00:00 app[worker.1]: RSI:  58.98108689476703
+2021-01-22T02:34:00.779317+00:00 app[worker.1]: MACD: 3.1248413486232454
+2021-01-22T02:34:01.148932+00:00 app[worker.1]: UPPERKC:  947.2457499999997 LOWERKC:  929.3612499999998
+2021-01-22T02:34:01.149010+00:00 app[worker.1]: UPPERBAND:  945.5398285582073 LOWERBAND:  931.0671714417922
+2021-01-22T02:34:01.149061+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:34:01.149102+00:00 app[worker.1]: MOMENTUM:  8.539999999999964
+2021-01-22T02:34:01.149148+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:34:01.149191+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:34:01.149224+00:00 app[worker.1]: in position:  False
+2021-01-22T02:34:01.149264+00:00 app[worker.1]: buy quanitity:  0.012830000000000001
+2021-01-22T02:34:01.149303+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:34:01.149341+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:34:01.149388+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:34:01.149439+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:34:01.149480+00:00 app[worker.1]: 
+2021-01-22T02:35:00.278057+00:00 app[worker.1]: Candle closed at 941.31. High is at 946.32. Low is at 939.86
+2021-01-22T02:35:00.278244+00:00 app[worker.1]: RSI:  55.13760450672622
+2021-01-22T02:35:00.278344+00:00 app[worker.1]: MACD: 3.157902797241965
+2021-01-22T02:35:00.660682+00:00 app[worker.1]: UPPERKC:  946.5682499999998 LOWERKC:  929.7697499999999
+2021-01-22T02:35:00.660772+00:00 app[worker.1]: UPPERBAND:  945.0689910145776 LOWERBAND:  931.2690089854221
+2021-01-22T02:35:00.660832+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:35:00.660882+00:00 app[worker.1]: MOMENTUM:  7.649999999999977
+2021-01-22T02:35:00.660935+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:35:00.660988+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:35:00.661030+00:00 app[worker.1]: in position:  False
+2021-01-22T02:35:00.661076+00:00 app[worker.1]: buy quanitity:  0.01287
+2021-01-22T02:35:00.661120+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:35:00.661164+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:35:00.661209+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:35:00.661263+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:35:00.661310+00:00 app[worker.1]: 
+2021-01-22T02:36:00.399487+00:00 app[worker.1]: Candle closed at 942.89. High is at 945.05. Low is at 940.0
+2021-01-22T02:36:00.401424+00:00 app[worker.1]: RSI:  56.71041488165801
+2021-01-22T02:36:00.401524+00:00 app[worker.1]: MACD: 3.1831624482722347
+2021-01-22T02:36:00.777294+00:00 app[worker.1]: UPPERKC:  946.5149999999999 LOWERKC:  930.1679999999999
+2021-01-22T02:36:00.778476+00:00 app[worker.1]: UPPERBAND:  945.5265769655832 LOWERBAND:  931.1564230344165
+2021-01-22T02:36:00.778530+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:36:00.778578+00:00 app[worker.1]: MOMENTUM:  5.759999999999991
+2021-01-22T02:36:00.778633+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:36:00.778684+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:36:00.778724+00:00 app[worker.1]: in position:  False
+2021-01-22T02:36:00.778770+00:00 app[worker.1]: buy quanitity:  0.01285
+2021-01-22T02:36:00.778821+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:36:00.778863+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:36:00.778916+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:36:00.778968+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:36:00.779017+00:00 app[worker.1]: 
+2021-01-22T02:37:00.173879+00:00 app[worker.1]: Candle closed at 942.26. High is at 945.47. Low is at 941.37
+2021-01-22T02:37:00.174105+00:00 app[worker.1]: RSI:  55.864406504114086
+2021-01-22T02:37:00.174209+00:00 app[worker.1]: MACD: 3.1849015779149283
+2021-01-22T02:37:00.585716+00:00 app[worker.1]: UPPERKC:  946.6682499999998 LOWERKC:  930.5927499999999
+2021-01-22T02:37:00.585820+00:00 app[worker.1]: UPPERBAND:  945.9564223993332 LOWERBAND:  931.3045776006666
+2021-01-22T02:37:00.585885+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:37:00.585934+00:00 app[worker.1]: MOMENTUM:  0.8400000000000318
+2021-01-22T02:37:00.585973+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:37:00.586018+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:37:00.586081+00:00 app[worker.1]: in position:  False
+2021-01-22T02:37:00.586117+00:00 app[worker.1]: buy quanitity:  0.01286
+2021-01-22T02:37:00.586148+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:37:00.586217+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:37:00.586248+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:37:00.586308+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:37:00.586350+00:00 app[worker.1]: 
+2021-01-22T02:38:03.008664+00:00 app[worker.1]: Candle closed at 938.52. High is at 942.64. Low is at 936.36
+2021-01-22T02:38:03.009313+00:00 app[worker.1]: RSI:  50.973910070304974
+2021-01-22T02:38:03.009408+00:00 app[worker.1]: MACD: 3.1048787817655237
+2021-01-22T02:38:03.415970+00:00 app[worker.1]: UPPERKC:  946.7732499999998 LOWERKC:  930.8417499999999
+2021-01-22T02:38:03.416170+00:00 app[worker.1]: UPPERBAND:  945.9405943496179 LOWERBAND:  931.6744056503819
+2021-01-22T02:38:03.416235+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:38:03.416307+00:00 app[worker.1]: MOMENTUM:  3.240000000000009
+2021-01-22T02:38:03.416378+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:38:03.416472+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:38:03.416515+00:00 app[worker.1]: in position:  False
+2021-01-22T02:38:03.416605+00:00 app[worker.1]: buy quanitity:  0.012910000000000001
+2021-01-22T02:38:03.416652+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:38:03.416737+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:38:03.416781+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:38:03.416885+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:38:03.416934+00:00 app[worker.1]: 
+2021-01-22T02:39:02.113493+00:00 app[worker.1]: Candle closed at 939.72. High is at 941.34. Low is at 937.45
+2021-01-22T02:39:02.114627+00:00 app[worker.1]: RSI:  52.42167695347932
+2021-01-22T02:39:02.117502+00:00 app[worker.1]: MACD: 2.989872774076175
+2021-01-22T02:39:02.496244+00:00 app[worker.1]: UPPERKC:  947.1175000000001 LOWERKC:  930.6775
+2021-01-22T02:39:02.496326+00:00 app[worker.1]: UPPERBAND:  946.0289539190353 LOWERBAND:  931.7660460809648
+2021-01-22T02:39:02.496381+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:39:02.496428+00:00 app[worker.1]: MOMENTUM:  0.6900000000000546
+2021-01-22T02:39:02.496480+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:39:02.496528+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:39:02.496568+00:00 app[worker.1]: in position:  False
+2021-01-22T02:39:02.496615+00:00 app[worker.1]: buy quanitity:  0.012899999999999998
+2021-01-22T02:39:02.496657+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:39:02.496697+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:39:02.496740+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:39:02.496790+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:39:02.496836+00:00 app[worker.1]: 
+2021-01-22T02:40:02.831219+00:00 app[worker.1]: Candle closed at 937.94. High is at 939.11. Low is at 937.11
+2021-01-22T02:40:02.833448+00:00 app[worker.1]: RSI:  50.046761137221466
+2021-01-22T02:40:02.833449+00:00 app[worker.1]: MACD: 2.8237553868524508
+2021-01-22T02:40:03.220745+00:00 app[worker.1]: UPPERKC:  947.1455000000001 LOWERKC:  931.1975
+2021-01-22T02:40:03.220786+00:00 app[worker.1]: UPPERBAND:  945.6870514731464 LOWERBAND:  932.6559485268536
+2021-01-22T02:40:03.220788+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:40:03.220789+00:00 app[worker.1]: MOMENTUM:  -2.689999999999941
+2021-01-22T02:40:03.220792+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:40:03.220821+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:40:03.220857+00:00 app[worker.1]: in position:  False
+2021-01-22T02:40:03.220892+00:00 app[worker.1]: buy quanitity:  0.012920000000000001
+2021-01-22T02:40:03.220923+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:40:03.220952+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:40:03.220982+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:40:03.221020+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:40:03.221054+00:00 app[worker.1]: 
+2021-01-22T02:41:04.002678+00:00 app[worker.1]: Candle closed at 939.26. High is at 941.4. Low is at 937.86
+2021-01-22T02:41:04.002845+00:00 app[worker.1]: RSI:  51.80101030896541
+2021-01-22T02:41:04.002930+00:00 app[worker.1]: MACD: 2.6489344444090053
+2021-01-22T02:41:04.412162+00:00 app[worker.1]: UPPERKC:  947.1037499999998 LOWERKC:  931.7002499999999
+2021-01-22T02:41:04.412247+00:00 app[worker.1]: UPPERBAND:  945.5787842766792 LOWERBAND:  933.2252157233204
+2021-01-22T02:41:04.412248+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:41:04.412249+00:00 app[worker.1]: MOMENTUM:  4.529999999999973
+2021-01-22T02:41:04.412249+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:41:04.412250+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:41:04.412276+00:00 app[worker.1]: in position:  False
+2021-01-22T02:41:04.418509+00:00 app[worker.1]: buy quanitity:  0.012899999999999998
+2021-01-22T02:41:04.418562+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:41:04.418603+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:41:04.418650+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:41:04.418721+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:41:04.418765+00:00 app[worker.1]: 
+2021-01-22T02:42:04.927974+00:00 app[worker.1]: Candle closed at 939.7. High is at 940.0. Low is at 937.96
+2021-01-22T02:42:04.928603+00:00 app[worker.1]: RSI:  52.40458853616836
+2021-01-22T02:42:04.928752+00:00 app[worker.1]: MACD: 2.478805170447297
+2021-01-22T02:42:05.333252+00:00 app[worker.1]: UPPERKC:  947.0887499999999 LOWERKC:  931.9402499999999
+2021-01-22T02:42:05.340026+00:00 app[worker.1]: UPPERBAND:  945.6265977578116 LOWERBAND:  933.4024022421881
+2021-01-22T02:42:05.340121+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:42:05.340213+00:00 app[worker.1]: MOMENTUM:  -2.009999999999991
+2021-01-22T02:42:05.340265+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:42:05.340348+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:42:05.340386+00:00 app[worker.1]: in position:  False
+2021-01-22T02:42:05.340470+00:00 app[worker.1]: buy quanitity:  0.012899999999999998
+2021-01-22T02:42:05.340513+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:42:05.340593+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:42:05.340725+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:42:05.340865+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:42:05.341118+00:00 app[worker.1]: 
+2021-01-22T02:43:01.630492+00:00 app[worker.1]: Candle closed at 937.4. High is at 938.86. Low is at 937.07
+2021-01-22T02:43:01.631116+00:00 app[worker.1]: RSI:  48.93444407472153
+2021-01-22T02:43:01.631319+00:00 app[worker.1]: MACD: 2.2781901459742433
+2021-01-22T02:43:02.015415+00:00 app[worker.1]: UPPERKC:  946.7967499999999 LOWERKC:  932.0112499999999
+2021-01-22T02:43:02.015539+00:00 app[worker.1]: UPPERBAND:  945.5847196992535 LOWERBAND:  933.2232803007463
+2021-01-22T02:43:02.015811+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:43:02.015884+00:00 app[worker.1]: MOMENTUM:  -7.8700000000000045
+2021-01-22T02:43:02.015961+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:43:02.016022+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:43:02.016110+00:00 app[worker.1]: in position:  False
+2021-01-22T02:43:02.016154+00:00 app[worker.1]: buy quanitity:  0.01293
+2021-01-22T02:43:02.016242+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:43:02.016285+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:43:02.016373+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:43:02.016449+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:43:02.016513+00:00 app[worker.1]: 
+2021-01-22T02:44:00.801147+00:00 app[worker.1]: Candle closed at 937.52. High is at 940.39. Low is at 937.29
+2021-01-22T02:44:00.801297+00:00 app[worker.1]: RSI:  49.124858298867416
+2021-01-22T02:44:00.802512+00:00 app[worker.1]: MACD: 2.065705888512668
+2021-01-22T02:44:01.175893+00:00 app[worker.1]: UPPERKC:  946.63325 LOWERKC:  932.3427499999999
+2021-01-22T02:44:01.175924+00:00 app[worker.1]: UPPERBAND:  945.5164777515606 LOWERBAND:  933.4595222484393
+2021-01-22T02:44:01.176006+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:44:01.176050+00:00 app[worker.1]: MOMENTUM:  -6.860000000000014
+2021-01-22T02:44:01.176098+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:44:01.176140+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:44:01.176173+00:00 app[worker.1]: in position:  False
+2021-01-22T02:44:01.176397+00:00 app[worker.1]: buy quanitity:  0.01293
+2021-01-22T02:44:01.176435+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:44:01.176515+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:44:01.176551+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:44:01.176631+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:44:01.176668+00:00 app[worker.1]: 
+2021-01-22T02:45:01.588747+00:00 app[worker.1]: Candle closed at 937.99. High is at 940.0. Low is at 937.07
+2021-01-22T02:45:01.589431+00:00 app[worker.1]: RSI:  49.9172469296926
+2021-01-22T02:45:01.589560+00:00 app[worker.1]: MACD: 1.8597114155781813
+2021-01-22T02:45:01.989967+00:00 app[worker.1]: UPPERKC:  946.78375 LOWERKC:  932.62525
+2021-01-22T02:45:01.989975+00:00 app[worker.1]: UPPERBAND:  945.1644211532642 LOWERBAND:  934.2445788467359
+2021-01-22T02:45:01.994473+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:45:01.994557+00:00 app[worker.1]: MOMENTUM:  -3.3199999999999363
+2021-01-22T02:45:01.994624+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:45:01.994676+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:45:01.994716+00:00 app[worker.1]: in position:  False
+2021-01-22T02:45:01.994784+00:00 app[worker.1]: buy quanitity:  0.012920000000000001
+2021-01-22T02:45:01.994834+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:45:01.994876+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:45:01.994928+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:45:01.994977+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:45:01.995020+00:00 app[worker.1]: 
+2021-01-22T02:46:00.429830+00:00 app[worker.1]: Candle closed at 940.76. High is at 943.19. Low is at 938.1
+2021-01-22T02:46:00.429999+00:00 app[worker.1]: RSI:  54.4471809815897
+2021-01-22T02:46:00.434175+00:00 app[worker.1]: MACD: 1.7085382582148942
+2021-01-22T02:46:00.832207+00:00 app[worker.1]: UPPERKC:  946.9937499999999 LOWERKC:  932.7782499999998
+2021-01-22T02:46:00.832362+00:00 app[worker.1]: UPPERBAND:  945.2316689011968 LOWERBAND:  934.5403310988029
+2021-01-22T02:46:00.832487+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:46:00.832936+00:00 app[worker.1]: MOMENTUM:  -2.1299999999999955
+2021-01-22T02:46:00.832992+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:46:00.833044+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:46:00.833087+00:00 app[worker.1]: in position:  False
+2021-01-22T02:46:00.833132+00:00 app[worker.1]: buy quanitity:  0.012879999999999999
+2021-01-22T02:46:00.833177+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:46:00.833220+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:46:00.833262+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:46:00.833368+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:46:00.833485+00:00 app[worker.1]: 
+2021-01-22T02:47:01.611290+00:00 app[worker.1]: Candle closed at 939.52. High is at 940.82. Low is at 938.09
+2021-01-22T02:47:01.611998+00:00 app[worker.1]: RSI:  52.15926954919754
+2021-01-22T02:47:01.612173+00:00 app[worker.1]: MACD: 1.5759732060213483
+2021-01-22T02:47:01.994954+00:00 app[worker.1]: UPPERKC:  946.8469999999999 LOWERKC:  932.735
+2021-01-22T02:47:01.995487+00:00 app[worker.1]: UPPERBAND:  945.091588269356 LOWERBAND:  934.4904117306439
+2021-01-22T02:47:01.995587+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:47:01.995637+00:00 app[worker.1]: MOMENTUM:  -2.740000000000009
+2021-01-22T02:47:01.995740+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:47:01.995814+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:47:01.995871+00:00 app[worker.1]: in position:  False
+2021-01-22T02:47:01.995917+00:00 app[worker.1]: buy quanitity:  0.012899999999999998
+2021-01-22T02:47:01.996008+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:47:01.996052+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:47:01.996153+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:47:01.996230+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:47:01.996296+00:00 app[worker.1]: 
+2021-01-22T02:48:00.853183+00:00 app[worker.1]: Candle closed at 937.68. High is at 939.95. Low is at 936.82
+2021-01-22T02:48:00.855308+00:00 app[worker.1]: RSI:  48.858877453767455
+2021-01-22T02:48:00.855414+00:00 app[worker.1]: MACD: 1.429072545659383
+2021-01-22T02:48:01.535785+00:00 app[worker.1]: UPPERKC:  946.74875 LOWERKC:  933.0732500000001
+2021-01-22T02:48:01.535880+00:00 app[worker.1]: UPPERBAND:  944.8969879663362 LOWERBAND:  934.925012033664
+2021-01-22T02:48:01.535940+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:48:01.535990+00:00 app[worker.1]: MOMENTUM:  -0.8400000000000318
+2021-01-22T02:48:01.536045+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:48:01.536183+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:48:01.536527+00:00 app[worker.1]: in position:  False
+2021-01-22T02:48:01.536585+00:00 app[worker.1]: buy quanitity:  0.01293
+2021-01-22T02:48:01.536630+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:48:01.536674+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:48:01.536720+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:48:01.536776+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:48:01.536824+00:00 app[worker.1]: 
+2021-01-22T02:49:00.517164+00:00 app[worker.1]: Candle closed at 936.5. High is at 939.65. Low is at 936.5
+2021-01-22T02:49:00.522677+00:00 app[worker.1]: RSI:  46.80147220857429
+2021-01-22T02:49:00.522784+00:00 app[worker.1]: MACD: 1.258804022952929
+2021-01-22T02:49:00.921395+00:00 app[worker.1]: UPPERKC:  946.33725 LOWERKC:  933.2317500000001
+2021-01-22T02:49:00.924220+00:00 app[worker.1]: UPPERBAND:  944.9775548812938 LOWERBAND:  934.5914451187064
+2021-01-22T02:49:00.924313+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:49:00.924417+00:00 app[worker.1]: MOMENTUM:  -3.2200000000000273
+2021-01-22T02:49:00.924492+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:49:00.924567+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:49:00.924632+00:00 app[worker.1]: in position:  False
+2021-01-22T02:49:00.924695+00:00 app[worker.1]: buy quanitity:  0.01294
+2021-01-22T02:49:00.924738+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:49:00.924825+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:49:00.924869+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:49:00.924967+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:49:00.925037+00:00 app[worker.1]: 
+2021-01-22T02:50:00.215331+00:00 app[worker.1]: Candle closed at 934.26. High is at 937.65. Low is at 933.92
+2021-01-22T02:50:00.215494+00:00 app[worker.1]: RSI:  43.07158792418298
+2021-01-22T02:50:00.216643+00:00 app[worker.1]: MACD: 1.0442077734192359
+2021-01-22T02:50:00.596825+00:00 app[worker.1]: UPPERKC:  945.79 LOWERKC:  933.142
+2021-01-22T02:50:00.596930+00:00 app[worker.1]: UPPERBAND:  945.1689024190123 LOWERBAND:  933.7630975809877
+2021-01-22T02:50:00.596990+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:50:00.597042+00:00 app[worker.1]: MOMENTUM:  -3.6800000000000637
+2021-01-22T02:50:00.598460+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:50:00.598513+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:50:00.598554+00:00 app[worker.1]: in position:  False
+2021-01-22T02:50:00.598604+00:00 app[worker.1]: buy quanitity:  0.012979999999999998
+2021-01-22T02:50:00.598658+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:50:00.598704+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:50:00.598749+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:50:00.598806+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:50:00.598855+00:00 app[worker.1]: 
+2021-01-22T02:51:00.143096+00:00 app[worker.1]: Candle closed at 936.24. High is at 937.94. Low is at 933.94
+2021-01-22T02:51:00.143270+00:00 app[worker.1]: RSI:  47.10808302392278
+2021-01-22T02:51:00.143377+00:00 app[worker.1]: MACD: 0.8422870363376699
+2021-01-22T02:51:00.523661+00:00 app[worker.1]: UPPERKC:  945.8212500000001 LOWERKC:  933.26175
+2021-01-22T02:51:00.523778+00:00 app[worker.1]: UPPERBAND:  945.0274612649672 LOWERBAND:  934.0555387350329
+2021-01-22T02:51:00.523895+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:51:00.523965+00:00 app[worker.1]: MOMENTUM:  -3.019999999999982
+2021-01-22T02:51:00.524037+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:51:00.524132+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:51:00.524175+00:00 app[worker.1]: in position:  False
+2021-01-22T02:51:00.524242+00:00 app[worker.1]: buy quanitity:  0.01295
+2021-01-22T02:51:00.524304+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:51:00.524349+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:51:00.524438+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:51:00.524500+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T02:51:00.524631+00:00 app[worker.1]: 
+2021-01-22T02:52:00.192871+00:00 app[worker.1]: Candle closed at 941.99. High is at 942.0. Low is at 936.25
+2021-01-22T02:52:00.196077+00:00 app[worker.1]: RSI:  56.75477263479303
+2021-01-22T02:52:00.196181+00:00 app[worker.1]: MACD: 0.7487142327965588
+2021-01-22T02:52:00.591639+00:00 app[worker.1]: UPPERKC:  945.5990000000002 LOWERKC:  933.5120000000002
+2021-01-22T02:52:00.591736+00:00 app[worker.1]: UPPERBAND:  945.0649045958041 LOWERBAND:  934.0460954041962
+2021-01-22T02:52:00.591785+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:52:00.591825+00:00 app[worker.1]: MOMENTUM:  2.2899999999999636
+2021-01-22T02:52:00.591870+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:52:00.591914+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:52:00.591948+00:00 app[worker.1]: in position:  False
+2021-01-22T02:52:00.591986+00:00 app[worker.1]: buy quanitity:  0.01286
+2021-01-22T02:52:00.592088+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:52:00.592125+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:52:00.592162+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:52:00.592209+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:52:00.592247+00:00 app[worker.1]: 
+2021-01-22T02:53:00.093397+00:00 app[worker.1]: Candle closed at 944.8. High is at 945.1. Low is at 942.0
+2021-01-22T02:53:00.093410+00:00 app[worker.1]: RSI:  60.56276474645974
+2021-01-22T02:53:00.093445+00:00 app[worker.1]: MACD: 0.7710824935797179
+2021-01-22T02:53:00.467509+00:00 app[worker.1]: UPPERKC:  945.3670000000002 LOWERKC:  933.6970000000001
+2021-01-22T02:53:00.467645+00:00 app[worker.1]: UPPERBAND:  944.9469038773063 LOWERBAND:  934.117096122694
+2021-01-22T02:53:00.467755+00:00 app[worker.1]: SQUEEZE:  True
+2021-01-22T02:53:00.467819+00:00 app[worker.1]: MOMENTUM:  7.399999999999977
+2021-01-22T02:53:00.467886+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:53:00.467962+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:53:00.468021+00:00 app[worker.1]: in position:  False
+2021-01-22T02:53:00.468068+00:00 app[worker.1]: buy quanitity:  0.012820000000000002
+2021-01-22T02:53:00.468161+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:53:00.468228+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:53:00.468290+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:53:00.468368+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:53:00.468433+00:00 app[worker.1]: 
+2021-01-22T02:54:01.212310+00:00 app[worker.1]: Candle closed at 948.93. High is at 949.61. Low is at 944.0
+2021-01-22T02:54:01.212501+00:00 app[worker.1]: RSI:  65.41215560818739
+2021-01-22T02:54:01.212542+00:00 app[worker.1]: MACD: 0.9290820710525215
+2021-01-22T02:54:01.597882+00:00 app[worker.1]: UPPERKC:  945.4595000000002 LOWERKC:  934.0595000000001
+2021-01-22T02:54:01.600150+00:00 app[worker.1]: UPPERBAND:  946.246257202223 LOWERBAND:  933.2727427977773
+2021-01-22T02:54:01.600380+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:54:01.600415+00:00 app[worker.1]: MOMENTUM:  11.409999999999968
+2021-01-22T02:54:01.600617+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:54:01.600654+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:54:01.600859+00:00 app[worker.1]: in position:  False
+2021-01-22T02:54:01.600895+00:00 app[worker.1]: buy quanitity:  0.01276
+2021-01-22T02:54:01.601464+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:54:01.601516+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:54:01.601609+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:54:01.601755+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:54:01.601874+00:00 app[worker.1]: 
+2021-01-22T02:55:01.175860+00:00 app[worker.1]: Candle closed at 947.83. High is at 949.52. Low is at 947.0
+2021-01-22T02:55:01.178629+00:00 app[worker.1]: RSI:  63.17084446201493
+2021-01-22T02:55:01.178953+00:00 app[worker.1]: MACD: 1.1441427077543396
+2021-01-22T02:55:01.595269+00:00 app[worker.1]: UPPERKC:  945.8957500000001 LOWERKC:  934.2752500000001
+2021-01-22T02:55:01.601904+00:00 app[worker.1]: UPPERBAND:  947.4474765688498 LOWERBAND:  932.7235234311505
+2021-01-22T02:55:01.601953+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:55:01.601954+00:00 app[worker.1]: MOMENTUM:  9.840000000000032
+2021-01-22T02:55:01.601954+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:55:01.601955+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:55:01.601955+00:00 app[worker.1]: in position:  False
+2021-01-22T02:55:01.601956+00:00 app[worker.1]: buy quanitity:  0.01278
+2021-01-22T02:55:01.601956+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:55:01.601956+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:55:01.601957+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:55:01.601957+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:55:01.601957+00:00 app[worker.1]: 
+2021-01-22T02:56:00.447905+00:00 app[worker.1]: Candle closed at 948.62. High is at 948.78. Low is at 946.46
+2021-01-22T02:56:00.448566+00:00 app[worker.1]: RSI:  64.12717018887115
+2021-01-22T02:56:00.448838+00:00 app[worker.1]: MACD: 1.3936905329144669
+2021-01-22T02:56:00.827767+00:00 app[worker.1]: UPPERKC:  945.88675 LOWERKC:  934.8572500000001
+2021-01-22T02:56:00.827791+00:00 app[worker.1]: UPPERBAND:  948.5490938603263 LOWERBAND:  932.1949061396739
+2021-01-22T02:56:00.830456+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:56:00.830505+00:00 app[worker.1]: MOMENTUM:  7.860000000000014
+2021-01-22T02:56:00.830554+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:56:00.830596+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:56:00.830631+00:00 app[worker.1]: in position:  False
+2021-01-22T02:56:00.830668+00:00 app[worker.1]: buy quanitity:  0.01277
+2021-01-22T02:56:00.830704+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:56:00.830740+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:56:00.830774+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:56:00.830859+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:56:00.830859+00:00 app[worker.1]: 
+2021-01-22T02:57:00.130441+00:00 app[worker.1]: Candle closed at 949.82. High is at 952.15. Low is at 947.86
+2021-01-22T02:57:00.130452+00:00 app[worker.1]: RSI:  65.59719346859704
+2021-01-22T02:57:00.130452+00:00 app[worker.1]: MACD: 1.667741346825441
+2021-01-22T02:57:00.517122+00:00 app[worker.1]: UPPERKC:  946.0600000000002 LOWERKC:  935.4400000000003
+2021-01-22T02:57:00.517533+00:00 app[worker.1]: UPPERBAND:  949.8841863348456 LOWERBAND:  931.6158136651549
+2021-01-22T02:57:00.517587+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:57:00.517629+00:00 app[worker.1]: MOMENTUM:  10.300000000000068
+2021-01-22T02:57:00.517683+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:57:00.517739+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:57:00.518966+00:00 app[worker.1]: in position:  False
+2021-01-22T02:57:00.519011+00:00 app[worker.1]: buy quanitity:  0.012750000000000001
+2021-01-22T02:57:00.519091+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:57:00.519135+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:57:00.519181+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:57:00.519239+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:57:00.519288+00:00 app[worker.1]: 
+2021-01-22T02:58:00.180751+00:00 app[worker.1]: Candle closed at 948.48. High is at 950.11. Low is at 947.53
+2021-01-22T02:58:00.180944+00:00 app[worker.1]: RSI:  62.498940401527314
+2021-01-22T02:58:00.185420+00:00 app[worker.1]: MACD: 1.917603925613233
+2021-01-22T02:58:00.556645+00:00 app[worker.1]: UPPERKC:  946.5722500000002 LOWERKC:  935.9237500000002
+2021-01-22T02:58:00.557204+00:00 app[worker.1]: UPPERBAND:  950.9122301297675 LOWERBAND:  931.5837698702328
+2021-01-22T02:58:00.557267+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:58:00.557324+00:00 app[worker.1]: MOMENTUM:  10.800000000000068
+2021-01-22T02:58:00.557379+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:58:00.557431+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:58:00.557471+00:00 app[worker.1]: in position:  False
+2021-01-22T02:58:00.557525+00:00 app[worker.1]: buy quanitity:  0.01277
+2021-01-22T02:58:00.557624+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:58:00.557672+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:58:00.557715+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:58:00.557769+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:58:00.557814+00:00 app[worker.1]: 
+2021-01-22T02:59:00.393132+00:00 app[worker.1]: Candle closed at 953.4. High is at 953.4. Low is at 948.41
+2021-01-22T02:59:00.397273+00:00 app[worker.1]: RSI:  68.42995785251523
+2021-01-22T02:59:00.397275+00:00 app[worker.1]: MACD: 2.2133326972292684
+2021-01-22T02:59:00.802330+00:00 app[worker.1]: UPPERKC:  946.9787500000001 LOWERKC:  936.8852500000002
+2021-01-22T02:59:00.802342+00:00 app[worker.1]: UPPERBAND:  952.9134927947562 LOWERBAND:  930.9505072052441
+2021-01-22T02:59:00.802343+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T02:59:00.802343+00:00 app[worker.1]: MOMENTUM:  16.899999999999977
+2021-01-22T02:59:00.802344+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T02:59:00.802344+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T02:59:00.802345+00:00 app[worker.1]: in position:  False
+2021-01-22T02:59:00.802345+00:00 app[worker.1]: buy quanitity:  0.0127
+2021-01-22T02:59:00.802346+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T02:59:00.802347+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T02:59:00.802347+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T02:59:00.802347+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T02:59:00.802348+00:00 app[worker.1]: 
+2021-01-22T03:00:00.842440+00:00 app[worker.1]: Candle closed at 952.57. High is at 954.35. Low is at 951.7
+2021-01-22T03:00:00.842466+00:00 app[worker.1]: RSI:  66.50760946938729
+2021-01-22T03:00:00.842467+00:00 app[worker.1]: MACD: 2.5040201208871786
+2021-01-22T03:00:01.282676+00:00 app[worker.1]: UPPERKC:  947.7927500000002 LOWERKC:  937.5342500000003
+2021-01-22T03:00:01.282708+00:00 app[worker.1]: UPPERBAND:  954.4065409605035 LOWERBAND:  930.9204590394969
+2021-01-22T03:00:01.286505+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:00:01.286553+00:00 app[worker.1]: MOMENTUM:  18.31000000000006
+2021-01-22T03:00:01.286608+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:00:01.286633+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:00:01.286669+00:00 app[worker.1]: in position:  False
+2021-01-22T03:00:01.286712+00:00 app[worker.1]: buy quanitity:  0.012709999999999999
+2021-01-22T03:00:01.286747+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:00:01.286781+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:00:01.286815+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:00:01.286857+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:00:01.286902+00:00 app[worker.1]: 
+2021-01-22T03:01:00.092403+00:00 app[worker.1]: Candle closed at 955.34. High is at 955.54. Low is at 952.49
+2021-01-22T03:01:00.092583+00:00 app[worker.1]: RSI:  69.59566509557719
+2021-01-22T03:01:00.103125+00:00 app[worker.1]: MACD: 2.814795974052767
+2021-01-22T03:01:00.588506+00:00 app[worker.1]: UPPERKC:  948.6455000000003 LOWERKC:  938.2895000000003
+2021-01-22T03:01:00.594339+00:00 app[worker.1]: UPPERBAND:  956.3179986284251 LOWERBAND:  930.6170013715755
+2021-01-22T03:01:00.594469+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:01:00.594585+00:00 app[worker.1]: MOMENTUM:  19.100000000000023
+2021-01-22T03:01:00.594645+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:01:00.594696+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:01:00.594737+00:00 app[worker.1]: in position:  False
+2021-01-22T03:01:00.594784+00:00 app[worker.1]: buy quanitity:  0.01267
+2021-01-22T03:01:00.594830+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:01:00.594876+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:01:00.594922+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:01:00.594978+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:01:00.595027+00:00 app[worker.1]: 
+2021-01-22T03:02:03.283585+00:00 app[worker.1]: Candle closed at 948.77. High is at 955.37. Low is at 948.0
+2021-01-22T03:02:03.286628+00:00 app[worker.1]: RSI:  56.26566553036581
+2021-01-22T03:02:03.286723+00:00 app[worker.1]: MACD: 3.010635479680465
+2021-01-22T03:02:03.669996+00:00 app[worker.1]: UPPERKC:  949.0622500000003 LOWERKC:  938.7797500000003
+2021-01-22T03:02:03.670613+00:00 app[worker.1]: UPPERBAND:  956.8476065152228 LOWERBAND:  930.9943934847778
+2021-01-22T03:02:03.670677+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:02:03.670729+00:00 app[worker.1]: MOMENTUM:  6.779999999999973
+2021-01-22T03:02:03.670787+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:02:03.670841+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:02:03.670875+00:00 app[worker.1]: in position:  False
+2021-01-22T03:02:03.670914+00:00 app[worker.1]: buy quanitity:  0.01276
+2021-01-22T03:02:03.670957+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:02:03.671001+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:02:03.671045+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:02:03.671099+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:02:03.671146+00:00 app[worker.1]: 
+2021-01-22T03:03:02.451717+00:00 app[worker.1]: Candle closed at 948.06. High is at 949.28. Low is at 946.57
+2021-01-22T03:03:02.451894+00:00 app[worker.1]: RSI:  55.03166406212146
+2021-01-22T03:03:02.459267+00:00 app[worker.1]: MACD: 3.1059793962892783
+2021-01-22T03:03:02.861918+00:00 app[worker.1]: UPPERKC:  949.9950000000002 LOWERKC:  938.9130000000004
+2021-01-22T03:03:02.864996+00:00 app[worker.1]: UPPERBAND:  957.137941658605 LOWERBAND:  931.7700583413956
+2021-01-22T03:03:02.865062+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:03:02.865110+00:00 app[worker.1]: MOMENTUM:  3.259999999999991
+2021-01-22T03:03:02.865272+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:03:02.865321+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:03:02.865360+00:00 app[worker.1]: in position:  False
+2021-01-22T03:03:02.865401+00:00 app[worker.1]: buy quanitity:  0.01277
+2021-01-22T03:03:02.865441+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:03:02.865482+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:03:02.865520+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:03:02.865570+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:03:02.865614+00:00 app[worker.1]: 
+2021-01-22T03:04:02.856737+00:00 app[worker.1]: Candle closed at 945.9. High is at 947.9. Low is at 945.07
+2021-01-22T03:04:02.856895+00:00 app[worker.1]: RSI:  51.32201024067526
+2021-01-22T03:04:02.866602+00:00 app[worker.1]: MACD: 3.091795845186442
+2021-01-22T03:04:03.242418+00:00 app[worker.1]: UPPERKC:  950.4830000000003 LOWERKC:  939.2630000000003
+2021-01-22T03:04:03.242467+00:00 app[worker.1]: UPPERBAND:  957.1604832247474 LOWERBAND:  932.5855167752532
+2021-01-22T03:04:03.243277+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:04:03.243309+00:00 app[worker.1]: MOMENTUM:  -3.0299999999999727
+2021-01-22T03:04:03.243352+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:04:03.243388+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:04:03.243392+00:00 app[worker.1]: in position:  False
+2021-01-22T03:04:03.243469+00:00 app[worker.1]: buy quanitity:  0.012799999999999999
+2021-01-22T03:04:03.243469+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:04:03.243470+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:04:03.243474+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:04:03.243502+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:04:03.243544+00:00 app[worker.1]: 
+2021-01-22T03:05:00.653748+00:00 app[worker.1]: Candle closed at 943.62. High is at 945.63. Low is at 943.1
+2021-01-22T03:05:00.654598+00:00 app[worker.1]: RSI:  47.64903461133345
+2021-01-22T03:05:00.654744+00:00 app[worker.1]: MACD: 2.9662832278943734
+2021-01-22T03:05:01.044856+00:00 app[worker.1]: UPPERKC:  950.7442500000002 LOWERKC:  939.5647500000002
+2021-01-22T03:05:01.045061+00:00 app[worker.1]: UPPERBAND:  957.0500512271897 LOWERBAND:  933.2589487728108
+2021-01-22T03:05:01.045133+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:05:01.045201+00:00 app[worker.1]: MOMENTUM:  -4.210000000000036
+2021-01-22T03:05:01.045267+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:05:01.045337+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:05:01.045391+00:00 app[worker.1]: in position:  False
+2021-01-22T03:05:01.045432+00:00 app[worker.1]: buy quanitity:  0.01284
+2021-01-22T03:05:01.045516+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:05:01.045556+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:05:01.045640+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:05:01.045691+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:05:01.045778+00:00 app[worker.1]: 
+2021-01-22T03:06:00.670479+00:00 app[worker.1]: Candle closed at 940.02. High is at 943.75. Low is at 939.88
+2021-01-22T03:06:00.672762+00:00 app[worker.1]: RSI:  42.452141857214876
+2021-01-22T03:06:00.673146+00:00 app[worker.1]: MACD: 2.713374630585856
+2021-01-22T03:06:01.083904+00:00 app[worker.1]: UPPERKC:  950.6772500000003 LOWERKC:  939.5577500000003
+2021-01-22T03:06:01.084208+00:00 app[worker.1]: UPPERBAND:  957.071953354231 LOWERBAND:  933.1630466457696
+2021-01-22T03:06:01.084281+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:06:01.084345+00:00 app[worker.1]: MOMENTUM:  -8.600000000000023
+2021-01-22T03:06:01.084414+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:06:01.084479+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:06:01.084532+00:00 app[worker.1]: in position:  False
+2021-01-22T03:06:01.084575+00:00 app[worker.1]: buy quanitity:  0.012889999999999999
+2021-01-22T03:06:01.084660+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:06:01.084698+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:06:01.084781+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:06:01.084833+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:06:01.084919+00:00 app[worker.1]: 
+2021-01-22T03:07:01.947386+00:00 app[worker.1]: Candle closed at 942.09. High is at 942.68. Low is at 939.68
+2021-01-22T03:07:01.947564+00:00 app[worker.1]: RSI:  46.11316343404665
+2021-01-22T03:07:01.947650+00:00 app[worker.1]: MACD: 2.4207158990391195
+2021-01-22T03:07:02.384189+00:00 app[worker.1]: UPPERKC:  950.7142500000003 LOWERKC:  939.7777500000003
+2021-01-22T03:07:02.384288+00:00 app[worker.1]: UPPERBAND:  957.0107633209909 LOWERBAND:  933.4812366790097
+2021-01-22T03:07:02.384372+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:07:02.384431+00:00 app[worker.1]: MOMENTUM:  -7.730000000000018
+2021-01-22T03:07:02.384505+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:07:02.384569+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:07:02.384608+00:00 app[worker.1]: in position:  False
+2021-01-22T03:07:02.384692+00:00 app[worker.1]: buy quanitity:  0.01286
+2021-01-22T03:07:02.384735+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:07:02.384817+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:07:02.384858+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:07:02.384953+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:07:02.385020+00:00 app[worker.1]: 
+2021-01-22T03:08:02.133924+00:00 app[worker.1]: Candle closed at 941.21. High is at 944.31. Low is at 940.47
+2021-01-22T03:08:02.134085+00:00 app[worker.1]: RSI:  44.800567447855144
+2021-01-22T03:08:02.134648+00:00 app[worker.1]: MACD: 2.0989270205089694
+2021-01-22T03:08:02.541362+00:00 app[worker.1]: UPPERKC:  950.9110000000002 LOWERKC:  939.9340000000003
+2021-01-22T03:08:02.544560+00:00 app[worker.1]: UPPERBAND:  956.828377213049 LOWERBAND:  934.0166227869515
+2021-01-22T03:08:02.544612+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:08:02.544647+00:00 app[worker.1]: MOMENTUM:  -7.269999999999982
+2021-01-22T03:08:02.544687+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:08:02.544724+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:08:02.544752+00:00 app[worker.1]: in position:  False
+2021-01-22T03:08:02.544782+00:00 app[worker.1]: buy quanitity:  0.01287
+2021-01-22T03:08:02.544811+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:08:02.544839+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:08:02.544868+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:08:02.544905+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:08:02.544938+00:00 app[worker.1]: 
+2021-01-22T03:09:01.777076+00:00 app[worker.1]: Candle closed at 942.32. High is at 943.83. Low is at 940.88
+2021-01-22T03:09:01.777262+00:00 app[worker.1]: RSI:  46.86723666895816
+2021-01-22T03:09:01.782611+00:00 app[worker.1]: MACD: 1.788674157398193
+2021-01-22T03:09:02.172093+00:00 app[worker.1]: UPPERKC:  951.2552500000002 LOWERKC:  940.1717500000002
+2021-01-22T03:09:02.172167+00:00 app[worker.1]: UPPERBAND:  956.4725989864128 LOWERBAND:  934.9544010135876
+2021-01-22T03:09:02.172221+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:09:02.172268+00:00 app[worker.1]: MOMENTUM:  -11.079999999999927
+2021-01-22T03:09:02.172318+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:09:02.172367+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:09:02.172404+00:00 app[worker.1]: in position:  False
+2021-01-22T03:09:02.172445+00:00 app[worker.1]: buy quanitity:  0.01286
+2021-01-22T03:09:02.172484+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:09:02.172524+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:09:02.172563+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:09:02.172614+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:09:02.172657+00:00 app[worker.1]: 
+2021-01-22T03:10:00.505664+00:00 app[worker.1]: Candle closed at 942.61. High is at 944.32. Low is at 941.24
+2021-01-22T03:10:00.505839+00:00 app[worker.1]: RSI:  47.42436851204663
+2021-01-22T03:10:00.506367+00:00 app[worker.1]: MACD: 1.502465843425809
+2021-01-22T03:10:00.897308+00:00 app[worker.1]: UPPERKC:  951.6577500000003 LOWERKC:  940.6042500000003
+2021-01-22T03:10:00.897386+00:00 app[worker.1]: UPPERBAND:  955.6573212206296 LOWERBAND:  936.604678779371
+2021-01-22T03:10:00.897437+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:10:00.897477+00:00 app[worker.1]: MOMENTUM:  -9.960000000000036
+2021-01-22T03:10:00.897526+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:10:00.897572+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:10:00.897608+00:00 app[worker.1]: in position:  False
+2021-01-22T03:10:00.897642+00:00 app[worker.1]: buy quanitity:  0.01285
+2021-01-22T03:10:00.897677+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:10:00.897713+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:10:00.897751+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:10:00.897797+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:10:00.897832+00:00 app[worker.1]: 
+2021-01-22T03:11:00.615575+00:00 app[worker.1]: Candle closed at 940.13. High is at 943.66. Low is at 939.64
+2021-01-22T03:11:00.615766+00:00 app[worker.1]: RSI:  43.225331524409974
+2021-01-22T03:11:00.615835+00:00 app[worker.1]: MACD: 1.2033403246465801
+2021-01-22T03:11:01.001479+00:00 app[worker.1]: UPPERKC:  951.8035000000002 LOWERKC:  940.8475000000003
+2021-01-22T03:11:01.001507+00:00 app[worker.1]: UPPERBAND:  955.170583323477 LOWERBAND:  937.4804166765235
+2021-01-22T03:11:01.001786+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:11:01.001825+00:00 app[worker.1]: MOMENTUM:  -15.210000000000036
+2021-01-22T03:11:01.002244+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:11:01.002281+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:11:01.002422+00:00 app[worker.1]: in position:  False
+2021-01-22T03:11:01.002503+00:00 app[worker.1]: buy quanitity:  0.012889999999999999
+2021-01-22T03:11:01.002508+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:11:01.002546+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:11:01.002619+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:11:01.002657+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:11:01.002737+00:00 app[worker.1]: 
+2021-01-22T03:12:00.143027+00:00 app[worker.1]: Candle closed at 942.09. High is at 943.75. Low is at 939.52
+2021-01-22T03:12:00.143234+00:00 app[worker.1]: RSI:  47.22601788722665
+2021-01-22T03:12:00.143338+00:00 app[worker.1]: MACD: 0.9403272053782341
+2021-01-22T03:12:00.532781+00:00 app[worker.1]: UPPERKC:  951.8100000000003 LOWERKC:  940.8510000000002
+2021-01-22T03:12:00.535422+00:00 app[worker.1]: UPPERBAND:  955.1658822215184 LOWERBAND:  937.4951177784822
+2021-01-22T03:12:00.535475+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:12:00.535526+00:00 app[worker.1]: MOMENTUM:  -6.67999999999995
+2021-01-22T03:12:00.535573+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:12:00.535613+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:12:00.535617+00:00 app[worker.1]: in position:  False
+2021-01-22T03:12:00.535662+00:00 app[worker.1]: buy quanitity:  0.01286
+2021-01-22T03:12:00.535696+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:12:00.535727+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:12:00.535763+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:12:00.535807+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:12:00.535847+00:00 app[worker.1]: 
+2021-01-22T03:13:01.789114+00:00 app[worker.1]: Candle closed at 942.17. High is at 943.57. Low is at 941.99
+2021-01-22T03:13:01.789271+00:00 app[worker.1]: RSI:  47.3899426997367
+2021-01-22T03:13:01.789355+00:00 app[worker.1]: MACD: 0.7128693781971455
+2021-01-22T03:13:02.174109+00:00 app[worker.1]: UPPERKC:  951.5645000000002 LOWERKC:  940.8335000000002
+2021-01-22T03:13:02.174144+00:00 app[worker.1]: UPPERBAND:  955.1983486431299 LOWERBAND:  937.1996513568705
+2021-01-22T03:13:02.174145+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:13:02.174146+00:00 app[worker.1]: MOMENTUM:  -5.889999999999986
+2021-01-22T03:13:02.174176+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:13:02.174180+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:13:02.174220+00:00 app[worker.1]: in position:  False
+2021-01-22T03:13:02.174252+00:00 app[worker.1]: buy quanitity:  0.01286
+2021-01-22T03:13:02.174295+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:13:02.174296+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:13:02.174310+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:13:02.174353+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:13:02.174497+00:00 app[worker.1]: 
+2021-01-22T03:14:01.614901+00:00 app[worker.1]: Candle closed at 942.72. High is at 942.88. Low is at 941.01
+2021-01-22T03:14:01.618871+00:00 app[worker.1]: RSI:  48.57952829099747
+2021-01-22T03:14:01.619068+00:00 app[worker.1]: MACD: 0.5267707896963354
+2021-01-22T03:14:02.028739+00:00 app[worker.1]: UPPERKC:  951.1400000000002 LOWERKC:  940.6370000000003
+2021-01-22T03:14:02.028896+00:00 app[worker.1]: UPPERBAND:  954.917987859207 LOWERBAND:  936.8590121407935
+2021-01-22T03:14:02.028973+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:14:02.029436+00:00 app[worker.1]: MOMENTUM:  -3.17999999999995
+2021-01-22T03:14:02.029567+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:14:02.029630+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:14:02.029726+00:00 app[worker.1]: in position:  False
+2021-01-22T03:14:02.029822+00:00 app[worker.1]: buy quanitity:  0.01285
+2021-01-22T03:14:02.029867+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:14:02.029955+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:14:02.030000+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:14:02.030096+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:14:02.030164+00:00 app[worker.1]: 
+2021-01-22T03:15:00.463535+00:00 app[worker.1]: Candle closed at 941.58. High is at 944.0. Low is at 941.27
+2021-01-22T03:15:00.463932+00:00 app[worker.1]: RSI:  46.232190146572265
+2021-01-22T03:15:00.464018+00:00 app[worker.1]: MACD: 0.35696231488872704
+2021-01-22T03:15:01.471519+00:00 app[worker.1]: UPPERKC:  950.5470000000003 LOWERKC:  940.6050000000002
+2021-01-22T03:15:01.474607+00:00 app[worker.1]: UPPERBAND:  954.7465930015343 LOWERBAND:  936.4054069984662
+2021-01-22T03:15:01.474833+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:15:01.475075+00:00 app[worker.1]: MOMENTUM:  -2.0399999999999636
+2021-01-22T03:15:01.475195+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:15:01.475386+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:15:01.475421+00:00 app[worker.1]: in position:  False
+2021-01-22T03:15:01.475497+00:00 app[worker.1]: buy quanitity:  0.01287
+2021-01-22T03:15:01.475714+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:15:01.475752+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:15:01.475830+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:15:01.475892+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:15:01.475969+00:00 app[worker.1]: 
+2021-01-22T03:16:00.183689+00:00 app[worker.1]: Candle closed at 936.9. High is at 941.11. Low is at 935.69
+2021-01-22T03:16:00.184565+00:00 app[worker.1]: RSI:  38.054486985493725
+2021-01-22T03:16:00.184713+00:00 app[worker.1]: MACD: 0.1307855526083537
+2021-01-22T03:16:00.570519+00:00 app[worker.1]: UPPERKC:  949.9767500000004 LOWERKC:  940.0032500000003
+2021-01-22T03:16:00.570855+00:00 app[worker.1]: UPPERBAND:  954.7842636272019 LOWERBAND:  935.1957363727988
+2021-01-22T03:16:00.570900+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:16:00.570936+00:00 app[worker.1]: MOMENTUM:  -3.1200000000000045
+2021-01-22T03:16:00.570976+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:16:00.571010+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:16:00.571041+00:00 app[worker.1]: in position:  False
+2021-01-22T03:16:00.571072+00:00 app[worker.1]: buy quanitity:  0.01294
+2021-01-22T03:16:00.571100+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:16:00.571128+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:16:00.571166+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:16:00.571213+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:16:00.571245+00:00 app[worker.1]: 
+2021-01-22T03:17:01.268195+00:00 app[worker.1]: Candle closed at 932.47. High is at 936.87. Low is at 932.31
+2021-01-22T03:17:01.268803+00:00 app[worker.1]: RSI:  32.21169491586588
+2021-01-22T03:17:01.268944+00:00 app[worker.1]: MACD: -0.189841350014289
+2021-01-22T03:17:01.653179+00:00 app[worker.1]: UPPERKC:  949.3417500000004 LOWERKC:  938.9032500000004
+2021-01-22T03:17:01.658523+00:00 app[worker.1]: UPPERBAND:  955.0587550719455 LOWERBAND:  933.1862449280553
+2021-01-22T03:17:01.658617+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:17:01.658715+00:00 app[worker.1]: MOMENTUM:  -9.620000000000005
+2021-01-22T03:17:01.658768+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:17:01.658854+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:17:01.658894+00:00 app[worker.1]: in position:  False
+2021-01-22T03:17:01.658976+00:00 app[worker.1]: buy quanitity:  0.013000000000000001
+2021-01-22T03:17:01.659015+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:17:01.659093+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:17:01.659130+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:17:01.659229+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:17:01.659273+00:00 app[worker.1]: 
+2021-01-22T03:18:00.308482+00:00 app[worker.1]: Candle closed at 930.38. High is at 934.28. Low is at 930.18
+2021-01-22T03:18:00.308671+00:00 app[worker.1]: RSI:  29.86787844994111
+2021-01-22T03:18:00.308762+00:00 app[worker.1]: MACD: -0.5857720212609578
+2021-01-22T03:18:00.700702+00:00 app[worker.1]: UPPERKC:  948.4570000000004 LOWERKC:  937.9780000000004
+2021-01-22T03:18:00.701050+00:00 app[worker.1]: UPPERBAND:  955.4771604764676 LOWERBAND:  930.9578395235333
+2021-01-22T03:18:00.701104+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:18:00.701157+00:00 app[worker.1]: MOMENTUM:  -10.830000000000041
+2021-01-22T03:18:00.701207+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:18:00.701262+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:18:00.701299+00:00 app[worker.1]: in position:  False
+2021-01-22T03:18:00.701341+00:00 app[worker.1]: buy quanitity:  0.01304
+2021-01-22T03:18:00.701399+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:18:00.701404+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:18:00.701439+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:18:00.701480+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:18:00.701512+00:00 app[worker.1]: 
+2021-01-22T03:19:00.470908+00:00 app[worker.1]: Candle closed at 930.44. High is at 931.44. Low is at 928.03
+2021-01-22T03:19:00.471301+00:00 app[worker.1]: RSI:  30.02622637977959
+2021-01-22T03:19:00.471451+00:00 app[worker.1]: MACD: -1.005853937890373
+2021-01-22T03:19:00.867350+00:00 app[worker.1]: UPPERKC:  947.4230000000002 LOWERKC:  936.7160000000003
+2021-01-22T03:19:00.867429+00:00 app[worker.1]: UPPERBAND:  954.597225212488 LOWERBAND:  929.5417747875126
+2021-01-22T03:19:00.867484+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:19:00.867529+00:00 app[worker.1]: MOMENTUM:  -11.879999999999995
+2021-01-22T03:19:00.867581+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:19:00.867631+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:19:00.867667+00:00 app[worker.1]: in position:  False
+2021-01-22T03:19:00.867709+00:00 app[worker.1]: buy quanitity:  0.01303
+2021-01-22T03:19:00.867748+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:19:00.867786+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:19:00.867824+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:19:00.867876+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:19:00.867918+00:00 app[worker.1]: 
+2021-01-22T03:20:01.374411+00:00 app[worker.1]: Candle closed at 930.9. High is at 931.25. Low is at 928.73
+2021-01-22T03:20:01.374605+00:00 app[worker.1]: RSI:  31.314270140298394
+2021-01-22T03:20:01.378596+00:00 app[worker.1]: MACD: -1.4094204230893363
+2021-01-22T03:20:01.762210+00:00 app[worker.1]: UPPERKC:  946.2210000000005 LOWERKC:  935.7510000000004
+2021-01-22T03:20:01.762234+00:00 app[worker.1]: UPPERBAND:  953.4418201656378 LOWERBAND:  928.5301798343631
+2021-01-22T03:20:01.762241+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:20:01.762242+00:00 app[worker.1]: MOMENTUM:  -11.710000000000036
+2021-01-22T03:20:01.762265+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:20:01.766508+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:20:01.766550+00:00 app[worker.1]: in position:  False
+2021-01-22T03:20:01.766592+00:00 app[worker.1]: buy quanitity:  0.01303
+2021-01-22T03:20:01.766629+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:20:01.766664+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:20:01.766698+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:20:01.766741+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:20:01.766778+00:00 app[worker.1]: 
+2021-01-22T03:21:00.198642+00:00 app[worker.1]: Candle closed at 931.72. High is at 932.5. Low is at 930.38
+2021-01-22T03:21:00.202423+00:00 app[worker.1]: RSI:  33.672085496183115
+2021-01-22T03:21:00.202425+00:00 app[worker.1]: MACD: -1.765184758485344
+2021-01-22T03:21:00.584002+00:00 app[worker.1]: UPPERKC:  945.0302500000005 LOWERKC:  934.5797500000006
+2021-01-22T03:21:00.584070+00:00 app[worker.1]: UPPERBAND:  951.0091376284842 LOWERBAND:  928.6008623715169
+2021-01-22T03:21:00.584115+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:21:00.584150+00:00 app[worker.1]: MOMENTUM:  -8.409999999999968
+2021-01-22T03:21:00.584187+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:21:00.584223+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:21:00.584250+00:00 app[worker.1]: in position:  False
+2021-01-22T03:21:00.584280+00:00 app[worker.1]: buy quanitity:  0.01302
+2021-01-22T03:21:00.584310+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:21:00.584338+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:21:00.584367+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:21:00.584404+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:21:00.584438+00:00 app[worker.1]: 
+2021-01-22T03:22:00.432174+00:00 app[worker.1]: Candle closed at 933.75. High is at 933.97. Low is at 929.72
+2021-01-22T03:22:00.432370+00:00 app[worker.1]: RSI:  39.26368437879596
+2021-01-22T03:22:00.432467+00:00 app[worker.1]: MACD: -2.035927200620026
+2021-01-22T03:22:00.832352+00:00 app[worker.1]: UPPERKC:  944.2095000000004 LOWERKC:  933.8985000000005
+2021-01-22T03:22:00.832367+00:00 app[worker.1]: UPPERBAND:  949.75610521338 LOWERBAND:  928.3518947866208
+2021-01-22T03:22:00.832418+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:22:00.832452+00:00 app[worker.1]: MOMENTUM:  -8.340000000000032
+2021-01-22T03:22:00.832498+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:22:00.832557+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:22:00.832558+00:00 app[worker.1]: in position:  False
+2021-01-22T03:22:00.832585+00:00 app[worker.1]: buy quanitity:  0.012979999999999998
+2021-01-22T03:22:00.832620+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:22:00.832652+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:22:00.832693+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:22:00.832721+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:22:00.832762+00:00 app[worker.1]: 
+2021-01-22T03:23:00.593918+00:00 app[worker.1]: Candle closed at 931.52. High is at 933.95. Low is at 930.67
+2021-01-22T03:23:00.594561+00:00 app[worker.1]: RSI:  35.683704896617826
+2021-01-22T03:23:00.594713+00:00 app[worker.1]: MACD: -2.2701248586713314
+2021-01-22T03:23:00.972047+00:00 app[worker.1]: UPPERKC:  943.1485000000005 LOWERKC:  933.3055000000004
+2021-01-22T03:23:00.972163+00:00 app[worker.1]: UPPERBAND:  948.5676945607394 LOWERBAND:  927.8863054392615
+2021-01-22T03:23:00.972277+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:23:00.972351+00:00 app[worker.1]: MOMENTUM:  -10.649999999999977
+2021-01-22T03:23:00.973667+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:23:00.974204+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:23:00.974323+00:00 app[worker.1]: in position:  False
+2021-01-22T03:23:00.974862+00:00 app[worker.1]: buy quanitity:  0.01302
+2021-01-22T03:23:00.974930+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:23:00.975194+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:23:00.975813+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:23:00.976219+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:23:00.976478+00:00 app[worker.1]: 
+2021-01-22T03:24:01.229565+00:00 app[worker.1]: Candle closed at 934.29. High is at 935.08. Low is at 931.52
+2021-01-22T03:24:01.229835+00:00 app[worker.1]: RSI:  42.71257909593142
+2021-01-22T03:24:01.230413+00:00 app[worker.1]: MACD: -2.4197721198752853
+2021-01-22T03:24:01.603653+00:00 app[worker.1]: UPPERKC:  942.6107500000004 LOWERKC:  932.6822500000004
+2021-01-22T03:24:01.604335+00:00 app[worker.1]: UPPERBAND:  947.4906379002374 LOWERBAND:  927.8023620997634
+2021-01-22T03:24:01.604387+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:24:01.604431+00:00 app[worker.1]: MOMENTUM:  -8.430000000000064
+2021-01-22T03:24:01.604479+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:24:01.604523+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:24:01.604557+00:00 app[worker.1]: in position:  False
+2021-01-22T03:24:01.604596+00:00 app[worker.1]: buy quanitity:  0.012979999999999998
+2021-01-22T03:24:01.604632+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:24:01.604666+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:24:01.604699+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:24:01.604744+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:24:01.604785+00:00 app[worker.1]: 
+2021-01-22T03:25:00.774526+00:00 app[worker.1]: Candle closed at 934.44. High is at 934.58. Low is at 931.88
+2021-01-22T03:25:00.778651+00:00 app[worker.1]: RSI:  43.07751968031771
+2021-01-22T03:25:00.778957+00:00 app[worker.1]: MACD: -2.500671761112081
+2021-01-22T03:25:01.165605+00:00 app[worker.1]: UPPERKC:  942.2065000000003 LOWERKC:  932.1685000000003
+2021-01-22T03:25:01.174292+00:00 app[worker.1]: UPPERBAND:  946.7260593775942 LOWERBAND:  927.6489406224065
+2021-01-22T03:25:01.174397+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:25:01.174460+00:00 app[worker.1]: MOMENTUM:  -7.139999999999986
+2021-01-22T03:25:01.174521+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:25:01.174573+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:25:01.174616+00:00 app[worker.1]: in position:  False
+2021-01-22T03:25:01.174663+00:00 app[worker.1]: buy quanitity:  0.012969999999999999
+2021-01-22T03:25:01.174708+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:25:01.174752+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:25:01.175579+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:25:01.175632+00:00 app[worker.1]: upwards momentum?  False
+2021-01-22T03:25:01.175674+00:00 app[worker.1]: 
+2021-01-22T03:26:01.174185+00:00 app[worker.1]: Candle closed at 937.14. High is at 937.5. Low is at 932.94
+2021-01-22T03:26:01.174827+00:00 app[worker.1]: RSI:  49.3672112848348
+2021-01-22T03:26:01.174978+00:00 app[worker.1]: MACD: -2.4854643732878516
+2021-01-22T03:26:01.573110+00:00 app[worker.1]: UPPERKC:  942.0752500000003 LOWERKC:  932.0117500000003
+2021-01-22T03:26:01.573207+00:00 app[worker.1]: UPPERBAND:  946.4932095722379 LOWERBAND:  927.5937904277628
+2021-01-22T03:26:01.573267+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:26:01.573319+00:00 app[worker.1]: MOMENTUM:  0.2400000000000091
+2021-01-22T03:26:01.573373+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:26:01.573427+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:26:01.573469+00:00 app[worker.1]: in position:  False
+2021-01-22T03:26:01.573517+00:00 app[worker.1]: buy quanitity:  0.01293
+2021-01-22T03:26:01.573562+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:26:01.573606+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:26:01.573649+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:26:01.573703+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:26:01.573756+00:00 app[worker.1]: 
+2021-01-22T03:27:02.736372+00:00 app[worker.1]: Candle closed at 940.72. High is at 940.72. Low is at 936.09
+2021-01-22T03:27:02.737029+00:00 app[worker.1]: RSI:  56.30276117478945
+2021-01-22T03:27:02.737202+00:00 app[worker.1]: MACD: -2.3480344727682088
+2021-01-22T03:27:03.157900+00:00 app[worker.1]: UPPERKC:  942.0585000000004 LOWERKC:  931.8915000000003
+2021-01-22T03:27:03.162484+00:00 app[worker.1]: UPPERBAND:  946.2963807989738 LOWERBAND:  927.6536192010269
+2021-01-22T03:27:03.162846+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:27:03.162893+00:00 app[worker.1]: MOMENTUM:  8.25
+2021-01-22T03:27:03.163470+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:27:03.163503+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:27:03.163834+00:00 app[worker.1]: in position:  False
+2021-01-22T03:27:03.163873+00:00 app[worker.1]: buy quanitity:  0.012879999999999999
+2021-01-22T03:27:03.163904+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:27:03.164362+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:27:03.164398+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:27:03.165030+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:27:03.165062+00:00 app[worker.1]: 
+2021-01-22T03:28:01.952930+00:00 app[worker.1]: Candle closed at 939.14. High is at 940.67. Low is at 938.86
+2021-01-22T03:28:01.953080+00:00 app[worker.1]: RSI:  52.84205358049139
+2021-01-22T03:28:01.953640+00:00 app[worker.1]: MACD: -2.1610585032980025
+2021-01-22T03:28:02.332065+00:00 app[worker.1]: UPPERKC:  942.0772500000005 LOWERKC:  931.6657500000003
+2021-01-22T03:28:02.335699+00:00 app[worker.1]: UPPERBAND:  946.0473209986508 LOWERBAND:  927.6956790013501
+2021-01-22T03:28:02.335773+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:28:02.335827+00:00 app[worker.1]: MOMENTUM:  8.759999999999991
+2021-01-22T03:28:02.335893+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:28:02.335947+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:28:02.335990+00:00 app[worker.1]: in position:  False
+2021-01-22T03:28:02.336039+00:00 app[worker.1]: buy quanitity:  0.012899999999999998
+2021-01-22T03:28:02.336085+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:28:02.336138+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:28:02.336183+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:28:02.336236+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:28:02.336284+00:00 app[worker.1]: 
+2021-01-22T03:29:01.244169+00:00 app[worker.1]: Candle closed at 941.07. High is at 941.5. Low is at 939.21
+2021-01-22T03:29:01.244354+00:00 app[worker.1]: RSI:  56.38929425235049
+2021-01-22T03:29:01.244463+00:00 app[worker.1]: MACD: -1.9171120947010034
+2021-01-22T03:29:01.653858+00:00 app[worker.1]: UPPERKC:  941.8625000000004 LOWERKC:  931.7555000000004
+2021-01-22T03:29:01.658441+00:00 app[worker.1]: UPPERBAND:  945.851583480336 LOWERBAND:  927.7664165196649
+2021-01-22T03:29:01.658797+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:29:01.659032+00:00 app[worker.1]: MOMENTUM:  10.629999999999995
+2021-01-22T03:29:01.659112+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:29:01.659300+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:29:01.659335+00:00 app[worker.1]: in position:  False
+2021-01-22T03:29:01.659427+00:00 app[worker.1]: buy quanitity:  0.012879999999999999
+2021-01-22T03:29:01.659554+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:29:01.659593+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:29:01.659802+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:29:01.659853+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:29:01.659934+00:00 app[worker.1]: 
+2021-01-22T03:30:01.579872+00:00 app[worker.1]: Candle closed at 939.52. High is at 940.98. Low is at 939.23
+2021-01-22T03:30:01.580045+00:00 app[worker.1]: RSI:  52.925611173676636
+2021-01-22T03:30:01.581920+00:00 app[worker.1]: MACD: -1.6706056508747278
+2021-01-22T03:30:01.976413+00:00 app[worker.1]: UPPERKC:  941.6585000000003 LOWERKC:  931.6505000000003
+2021-01-22T03:30:01.980340+00:00 app[worker.1]: UPPERBAND:  945.3959197359038 LOWERBAND:  927.9130802640968
+2021-01-22T03:30:01.980416+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:30:01.980470+00:00 app[worker.1]: MOMENTUM:  8.620000000000005
+2021-01-22T03:30:01.980527+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:30:01.980580+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:30:01.980620+00:00 app[worker.1]: in position:  False
+2021-01-22T03:30:01.980664+00:00 app[worker.1]: buy quanitity:  0.012899999999999998
+2021-01-22T03:30:01.980709+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:30:01.980913+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:30:01.984743+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:30:01.984825+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:30:01.984876+00:00 app[worker.1]: 
+2021-01-22T03:31:01.833146+00:00 app[worker.1]: Candle closed at 944.74. High is at 945.0. Low is at 938.43
+2021-01-22T03:31:01.833763+00:00 app[worker.1]: RSI:  61.543682669300125
+2021-01-22T03:31:01.833983+00:00 app[worker.1]: MACD: -1.3483272021916444
+2021-01-22T03:31:02.242909+00:00 app[worker.1]: UPPERKC:  941.7892500000005 LOWERKC:  931.9807500000004
+2021-01-22T03:31:02.243899+00:00 app[worker.1]: UPPERBAND:  946.204825105597 LOWERBAND:  927.5651748944039
+2021-01-22T03:31:02.243901+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:31:02.243902+00:00 app[worker.1]: MOMENTUM:  13.019999999999982
+2021-01-22T03:31:02.243902+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:31:02.243902+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:31:02.243903+00:00 app[worker.1]: in position:  False
+2021-01-22T03:31:02.243903+00:00 app[worker.1]: buy quanitity:  0.012820000000000002
+2021-01-22T03:31:02.243904+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:31:02.243904+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:31:02.243905+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:31:02.243905+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:31:02.243905+00:00 app[worker.1]: 
+2021-01-22T03:32:02.883904+00:00 app[worker.1]: Candle closed at 947.39. High is at 948.24. Low is at 945.25
+2021-01-22T03:32:02.887140+00:00 app[worker.1]: RSI:  65.0614547503482
+2021-01-22T03:32:02.887247+00:00 app[worker.1]: MACD: -0.9500983849202983
+2021-01-22T03:32:03.340597+00:00 app[worker.1]: UPPERKC:  942.2455000000003 LOWERKC:  932.0545000000003
+2021-01-22T03:32:03.347190+00:00 app[worker.1]: UPPERBAND:  947.3102578707137 LOWERBAND:  926.9897421292869
+2021-01-22T03:32:03.348768+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:32:03.348839+00:00 app[worker.1]: MOMENTUM:  13.639999999999986
+2021-01-22T03:32:03.348928+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:32:03.348984+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:32:03.349213+00:00 app[worker.1]: in position:  False
+2021-01-22T03:32:03.349400+00:00 app[worker.1]: buy quanitity:  0.01278
+2021-01-22T03:32:03.349584+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:32:03.349759+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:32:03.349930+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:32:03.350777+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:32:03.350965+00:00 app[worker.1]: 
+2021-01-22T03:33:00.307753+00:00 app[worker.1]: Candle closed at 945.94. High is at 947.52. Low is at 945.24
+2021-01-22T03:33:00.307938+00:00 app[worker.1]: RSI:  61.71507297490337
+2021-01-22T03:33:00.311001+00:00 app[worker.1]: MACD: -0.5461095973937996
+2021-01-22T03:33:00.690249+00:00 app[worker.1]: UPPERKC:  942.3410000000005 LOWERKC:  932.3360000000004
+2021-01-22T03:33:00.690342+00:00 app[worker.1]: UPPERBAND:  947.9922059748576 LOWERBAND:  926.6847940251432
+2021-01-22T03:33:00.690431+00:00 app[worker.1]: SQUEEZE:  False
+2021-01-22T03:33:00.690483+00:00 app[worker.1]: MOMENTUM:  14.420000000000073
+2021-01-22T03:33:00.690548+00:00 app[worker.1]: rsi is overbought:  False
+2021-01-22T03:33:00.690602+00:00 app[worker.1]: rsi is oversold:  False
+2021-01-22T03:33:00.690646+00:00 app[worker.1]: in position:  False
+2021-01-22T03:33:00.690694+00:00 app[worker.1]: buy quanitity:  0.012799999999999999
+2021-01-22T03:33:00.690739+00:00 app[worker.1]: sell quanitity:  0.0
+2021-01-22T03:33:00.690784+00:00 app[worker.1]: stop loss:  -1
+2021-01-22T03:33:00.690829+00:00 app[worker.1]: exiting squeeze?  False
+2021-01-22T03:33:00.690882+00:00 app[worker.1]: upwards momentum?  True
+2021-01-22T03:33:00.690930+00:00 app[worker.1]: 

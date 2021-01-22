@@ -232,7 +232,7 @@ def on_message(ws, message):
             print('buy quanitity: ', BUY_QUANTITY)
             print('sell quanitity: ', SELL_QUANTITY)
             print('stop loss: ', STOP_LOSS)
-            print('exiting squeeze? ', (is_squeeze[-1] is False) and (True in is_squeeze[-6:-3]))
+            print('exiting squeeze? ', (is_squeeze[-1] == False) and (True in is_squeeze[-6:-3]))
             print('upwards momentum? ', (momentum[-1] > 0))
             # If exiting a squeeze
             if (momentum[-1] < 0 and in_position) or (close < STOP_LOSS):
@@ -242,7 +242,7 @@ def on_message(ws, message):
                 if order_succeeded:
                     in_position = False
 
-            if (is_squeeze[-1] is False) and (True in is_squeeze[-6:-3]) and (momentum[-1] > 0):
+            if (is_squeeze[-1] == False) and (True in is_squeeze[-6:-3]) and (momentum[-1] > 0):
                 if in_position:
                     print("BUY condition, but we are already in position. Holding")
                 else:

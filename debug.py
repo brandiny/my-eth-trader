@@ -122,7 +122,7 @@ lowerKC = lowerKCList[-1]
 
 # Do the squeeze
 is_squeeze = inSqueeze(upperBandList, lowerBandList, upperKCList, lowerKCList)
-
+is_squeeze = numpy.array(list(is_squeeze) + [True, False])
 # Get Momentum
 momentum = talib.MOM(np_closes)
 
@@ -137,8 +137,8 @@ print('rsi is oversold: ', last_rsi < RSI_OVERSOLD)
 print('buy quanitity: ', BUY_QUANTITY)
 print('sell quanitity: ', SELL_QUANTITY)
 print('stop loss: ', STOP_LOSS)
-print(is_squeeze[-1], is_squeeze[-5:-1], True in is_squeeze[-6:-3])
-print('exiting squeeze? ', (is_squeeze[-1] is False) and (True in
-                            is_squeeze[-6:-3]))
+print(is_squeeze[-1], is_squeeze[-6:-1], True in is_squeeze[-6:-1])
+print('exiting squeeze? ', (is_squeeze[-1] == False) and (True in
+                            is_squeeze[-6:-1]))
 print(is_squeeze)
 print('upwards momentum? ', (momentum[-1] > 0))
