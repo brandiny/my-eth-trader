@@ -163,7 +163,7 @@ def on_message(ws, message):
             # For this strategy:
             #       - sell if in position and the momentum is turning
             #       - or if the trade price dips below the stop loss
-            if (ema_short[-2] > ema_long[-2]) and (ema_short[-1] < ema_long[-1]):
+            if last_rsi > RSI_OVERBOUGHT:
                 if not in_position:
                     print('SELL SIGNAL. We have nothing to sell however. Nothing is done.')
                 else:
@@ -176,7 +176,7 @@ def on_message(ws, message):
             # For this strategy:
             #       - buy if the market has JUST exited a squeeze
             #       - has upwards momentum
-            if (ema_short[-2] < ema_long[-2]) and (ema_short[-1] > ema_long[-1]):
+            if last_rsi < RSI_OVERSOLD:
                 if in_position:
                     print("BUY SIGNAL. Already holding currency, so nothing is done.")
                 else:
