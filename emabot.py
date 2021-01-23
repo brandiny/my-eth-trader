@@ -188,7 +188,7 @@ def on_message(ws, message):
             # For this strategy:
             #       - sell if in position and the momentum is turning
             #       - or if the trade price dips below the stop loss
-            if RSI_BEAR_CROSS and MACD_BEAR_CROSS and SMA_BEAR:
+            if rsi[-1] < 70 and rsi[-2] > 70:
                 if not in_position:
                     print('SELL SIGNAL. We have nothing to sell however. Nothing is done.')
                 else:
@@ -201,7 +201,7 @@ def on_message(ws, message):
             # For this strategy:
             #       - buy if the market has JUST exited a squeeze
             #       - has upwards momentum
-            if MACD_BULL_CROSS and RSI_BULL_CROSS and SMA_BULL:
+            if rsi[-2] < 30 and rsi[-1] > 30:
                 if in_position:
                     print("BUY SIGNAL. Already holding currency, so nothing is done.")
                 else:
