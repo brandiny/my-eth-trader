@@ -20,6 +20,11 @@ RSI_OVERSOLD = 25
 EMA_LONG_PERIOD = 13
 EMA_SHORT_PERIOD = 8
 
+# Edit the MACD constants
+MACD_FASTPERIOD = 12
+MACD_SLOWPERIOD = 26
+MACD_SIGNALPERIOD = 9
+
 # Asset information
 # Buy and sell quantities are automatically calculated from account balances
 TRADE_SYMBOL = 'ETHEUR'
@@ -92,6 +97,9 @@ def on_message(ws, message):
     global STOP_LOSS
     global EMA_SHORT_PERIOD
     global EMA_LONG_PERIOD
+    global MACD_FASTPERIOD
+    global MACD_SLOWPERIOD
+    global MACD_SIGNALPERIOD
 
     # Load in the json packet received from the web socket
     json_message = json.loads(message)
@@ -119,8 +127,7 @@ def on_message(ws, message):
             # RSI is a leading momentum indicator
             rsi = talib.RSI(np_closes, RSI_PERIOD)
             dump_data['rsi'] = list(rsi[:])
-            last_rsi = rsi[-1]
-            print('RSI:  {}'.format(last_rsi))
+            print('RSI:  {}'.format(rsi[-1]))
 
             # Calculate optimum BUY trade quantity
             #       Find the EUR balance and divide it by the CLOSING PRICE
@@ -146,24 +153,35 @@ def on_message(ws, message):
             # Calculate Exponential Moving averages
             ema_long = talib.EMA(np_closes, timeperiod=EMA_LONG_PERIOD)
             ema_short = talib.EMA(np_closes, timeperiod=EMA_SHORT_PERIOD)
+            
+            # Calculate 10 SMA
+            sma_10 = talib.SMA(np_closes, timeperiod=10)
+            
+            # Calculate MACD
+            macd, macdsignal, macdhist = talib.MACD(np_closes, fastperiod=MACD_FASTPERIOD, slowperiod=MACD_SLOWPERIOD, signalperiod=MACD_SIGNALPERIOD)
+            dump_data['macd'] = list(macd[:])
 
             # LOG INFORMATION FOR LIVE DEBUG
-            print('rsi is overbought: ', last_rsi > RSI_OVERBOUGHT)
-            print('rsi is oversold: ', last_rsi < RSI_OVERSOLD)
+            print('rsi is overbought: ', rsi[-1] > RSI_OVERBOUGHT)
+            print('rsi is oversold: ', rsi[-1] < RSI_OVERSOLD)
             print('in position: ', in_position)
             print('buy quanitity: ', BUY_QUANTITY)
             print('sell quanitity: ', SELL_QUANTITY)
             print('stop loss: ', STOP_LOSS)
+            print('sma: ', sma_10[-1])
+            print('macd: ', macd[-1])
+            print('macd signal: ', macdsignal[-1])
+            '''
             print('ema {}: '.format(str(EMA_LONG_PERIOD)), ema_long)
             print('ema {}: '.format(str(EMA_SHORT_PERIOD)), ema_short)
             print('bull cross occurring: ', ((ema_short[-2] < ema_long[-2]) and (ema_short[-1] > ema_long[-1])))
             print('bear cross occurring: ', ((ema_short[-2] > ema_long[-2]) and (ema_short[-1] < ema_long[-1])))
-
+            '''
             # SELL CONDITION
             # For this strategy:
             #       - sell if in position and the momentum is turning
             #       - or if the trade price dips below the stop loss
-            if last_rsi > RSI_OVERBOUGHT:
+            if rsi[-1] < 50 and rsi[-1] < rsi[-2] and close < sma_10[-1] and macd[-1] - macdsignal[-1] < 0:
                 if not in_position:
                     print('SELL SIGNAL. We have nothing to sell however. Nothing is done.')
                 else:
@@ -176,7 +194,7 @@ def on_message(ws, message):
             # For this strategy:
             #       - buy if the market has JUST exited a squeeze
             #       - has upwards momentum
-            if last_rsi < RSI_OVERSOLD:
+            if rsi[-1] > 50 and rsi[-1] > rsi[-2] and close > sma_10[-1] and macd[-1] - macdsignal[-1] > 0:
                 if in_position:
                     print("BUY SIGNAL. Already holding currency, so nothing is done.")
                 else:
