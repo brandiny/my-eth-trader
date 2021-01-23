@@ -12,7 +12,7 @@ websocket._logging._logger.level = -99
 STOP_LOSS = -1
 
 # Edit the Relative Strength Index (RSI) constants
-RSI_PERIOD = 13
+RSI_PERIOD = 14
 RSI_OVERBOUGHT = 75
 RSI_OVERSOLD = 25
 
@@ -161,14 +161,15 @@ def on_message(ws, message):
             macd, macdsignal, macdhist = talib.MACD(np_closes, fastperiod=MACD_FASTPERIOD, slowperiod=MACD_SLOWPERIOD, signalperiod=MACD_SIGNALPERIOD)
             dump_data['macd'] = list(macd[:])
 
+            '''
             # Determine crosses
-            RSI_BULL_CROSS  = rsi[-1] > 50 and rsi[-1] > rsi[-2]
-            RSI_BEAR_CROSS  = rsi[-1] < 50 and rsi[-1] < rsi[-2]
+            RSI_BULL_CROSS = rsi[-1] > 50 and rsi[-1] > rsi[-2]
+            RSI_BEAR_CROSS = rsi[-1] < 50 and rsi[-1] < rsi[-2]
             MACD_BULL_CROSS = (macdsignal < 0 and macd < 0) and (macd[-1] > macdsignal[-1] and macd[-2] < macdsignal[-2])
             MACD_BEAR_CROSS = (macdsignal > 0 and macd > 0) and (macd[-1] < macdsignal[-1] and macd[-2] > macdsignal[-2])
-            SMA_BULL        = sma_10[-1] > close
-            SMA_BEAR        = sma_10[-1] < close
-
+            SMA_BULL = sma_10[-1] > close
+            SMA_BEAR = sma_10[-1] < close
+            '''
             # LOG INFORMATION FOR LIVE DEBUG
             print('In position: ', in_position)
             print('Buy quanitity: ', BUY_QUANTITY)
@@ -177,13 +178,14 @@ def on_message(ws, message):
             print('SMA: ', sma_10[-1])
             print('MACD: ', macd[-1])
             print('MACD signal: ', macdsignal[-1])
+            '''
             print('RSI BULL CROSS: ', RSI_BULL_CROSS)
             print('RSI BEAR CROSS: ', RSI_BEAR_CROSS)
             print('MACD BULL CROSS: ', MACD_BULL_CROSS)
             print('MACD BEAR CROSS: ', MACD_BEAR_CROSS)
             print('SMA BULL: ', SMA_BULL)
             print('SMA BEAR: ', SMA_BEAR)
-
+            '''
             # SELL CONDITION
             # For this strategy:
             #       - sell if in position and the momentum is turning
