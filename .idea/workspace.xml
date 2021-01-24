@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8c9d4ef-9e01-402f-a8b9-8e8bdcfb14a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emabot.py" beforeDir="false" afterPath="$PROJECT_DIR$/emabot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

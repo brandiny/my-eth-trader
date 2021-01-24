@@ -7,6 +7,9 @@ from binance.enums import *                     # Imports global constants used 
 # Web Socket ignores exceptions by default - this setting raises them
 websocket._logging._logger.level = -99
 
+# This prevents being whipsawed
+POSITION_TURNS = 0
+
 # This variable holds the Stop Loss price - initially, there is no stop loss
 # The stop loss is automatically calculated upon entering a position
 STOP_LOSS = -1
@@ -33,7 +36,7 @@ SELL_QUANTITY = 0
 
 # Binance Web Socket Object
 # https://github.com/binance/binance-spot-api-docs/blob/master/web-socket-streams.md
-SOCKET = "wss://stream.binance.com:9443/ws/{}@kline_1m".format(TRADE_SYMBOL.lower())
+SOCKET = "wss://stream.binance.com:9443/ws/{}@kline_5m".format(TRADE_SYMBOL.lower())
 
 # Financial information storage
 # Closes        = closing candlestick price
@@ -100,6 +103,7 @@ def on_message(ws, message):
     global MACD_FASTPERIOD
     global MACD_SLOWPERIOD
     global MACD_SIGNALPERIOD
+    global POSITION_TURNS
 
     # Load in the json packet received from the web socket
     json_message = json.loads(message)
@@ -161,21 +165,13 @@ def on_message(ws, message):
             macd, macdsignal, macdhist = talib.MACD(np_closes, fastperiod=MACD_FASTPERIOD, slowperiod=MACD_SLOWPERIOD, signalperiod=MACD_SIGNALPERIOD)
             dump_data['macd'] = list(macd[:])
 
-            '''
-            # Determine crosses
-            RSI_BULL_CROSS = rsi[-1] > 50 and rsi[-1] > rsi[-2]
-            RSI_BEAR_CROSS = rsi[-1] < 50 and rsi[-1] < rsi[-2]
-            MACD_BULL_CROSS = (macdsignal < 0 and macd < 0) and (macd[-1] > macdsignal[-1] and macd[-2] < macdsignal[-2])
-            MACD_BEAR_CROSS = (macdsignal > 0 and macd > 0) and (macd[-1] < macdsignal[-1] and macd[-2] > macdsignal[-2])
-            SMA_BULL = sma_10[-1] > close
-            SMA_BEAR = sma_10[-1] < close
-
-            
-            '''
-            # UPDATE STOP LOSS
+            # Trailing stop loss
             if closes[-1] > closes[-2]:
                 STOP_LOSS = close - 5
 
+            # If in position
+            if in_position:
+                POSITION_TURNS += 1
 
             # LOG INFORMATION FOR LIVE DEBUG
             print('In position: ', in_position)
@@ -185,14 +181,7 @@ def on_message(ws, message):
             print('SMA: ', sma_10[-1])
             print('MACD: ', macd[-1])
             print('MACD signal: ', macdsignal[-1])
-            '''
-            print('RSI BULL CROSS: ', RSI_BULL_CROSS)
-            print('RSI BEAR CROSS: ', RSI_BEAR_CROSS)
-            print('MACD BULL CROSS: ', MACD_BULL_CROSS)
-            print('MACD BEAR CROSS: ', MACD_BEAR_CROSS)
-            print('SMA BULL: ', SMA_BULL)
-            print('SMA BEAR: ', SMA_BEAR)
-            '''
+            print("Position Turns: ", POSITION_TURNS)
             # SELL CONDITION
             # For this strategy:
             #       - sell if in position and the momentum is turning
@@ -200,31 +189,33 @@ def on_message(ws, message):
             if rsi[-1] < 70 and rsi[-2] > 70 or close < STOP_LOSS:
                 if not in_position:
                     print('SELL SIGNAL. We have nothing to sell however. Nothing is done.')
+                elif POSITION_TURNS < 10:
+                    print("We cannot exit a position in less than 10 time frames, to prevent whipsaws.")
                 else:
                     print("SELL SIGNAL. Exiting position")
                     order_succeeded = order(SIDE_SELL, SELL_QUANTITY, TRADE_SYMBOL)
+
                     if order_succeeded:
                         in_position = False
+                        POSITION_TURNS = 0
 
             # BUY CONDITION
             # For this strategy:
-            #       - buy if the market has JUST exited a squeeze
             #       - has upwards momentum
             if rsi[-2] < 30 and rsi[-1] > 30:
                 if in_position:
                     print("BUY SIGNAL. Already holding currency, so nothing is done.")
                 else:
-                    print("BUY SIGNAL. EMA 8 has crossed the EMA 21 with upwards momentum. Bullish momentum.")
+                    print("BUY SIGNAL. Bullish momentum.")
                     order_succeeded = order(SIDE_BUY, BUY_QUANTITY, TRADE_SYMBOL)
-                    STOP_LOSS = close - close * 0.01        # 1 percent stop loss
                     if order_succeeded:
                         in_position = True
+                        POSITION_TURNS = 0
 
         # Log information to the logs.json file
         print()
         with open('logs.json', 'w') as f:
             json.dump(dump_data, f)
-
 
 # Run the websocket until terminated.
 ws = websocket.WebSocketApp(SOCKET, on_open=on_open, on_close=on_close, on_message=on_message)
