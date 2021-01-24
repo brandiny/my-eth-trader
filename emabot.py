@@ -170,11 +170,13 @@ def on_message(ws, message):
             SMA_BULL = sma_10[-1] > close
             SMA_BEAR = sma_10[-1] < close
 
+            
+            '''
             # UPDATE STOP LOSS
             if closes[-1] > closes[-2]:
                 STOP_LOSS = close - 5
 
-            '''
+
             # LOG INFORMATION FOR LIVE DEBUG
             print('In position: ', in_position)
             print('Buy quanitity: ', BUY_QUANTITY)
