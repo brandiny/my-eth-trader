@@ -169,6 +169,11 @@ def on_message(ws, message):
             MACD_BEAR_CROSS = (macdsignal > 0 and macd > 0) and (macd[-1] < macdsignal[-1] and macd[-2] > macdsignal[-2])
             SMA_BULL = sma_10[-1] > close
             SMA_BEAR = sma_10[-1] < close
+
+            # UPDATE STOP LOSS
+            if closes[-1] > closes[-2]:
+                STOP_LOSS = close - 5
+
             '''
             # LOG INFORMATION FOR LIVE DEBUG
             print('In position: ', in_position)
@@ -190,7 +195,7 @@ def on_message(ws, message):
             # For this strategy:
             #       - sell if in position and the momentum is turning
             #       - or if the trade price dips below the stop loss
-            if rsi[-1] < 70 and rsi[-2] > 70:
+            if rsi[-1] < 70 and rsi[-2] > 70 or close < STOP_LOSS:
                 if not in_position:
                     print('SELL SIGNAL. We have nothing to sell however. Nothing is done.')
                 else:
