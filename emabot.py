@@ -166,9 +166,10 @@ def on_message(ws, message):
             dump_data['macd'] = list(macd[:])
 
             # Trailing stop loss
+            '''
             if closes[-1] > closes[-2]:
                 STOP_LOSS = close - 5
-
+            '''
             # If in position
             if in_position:
                 POSITION_TURNS += 1
