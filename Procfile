@@ -1,1 +1,1 @@
-worker: python emabot.py
+web: gunicorn server:app
