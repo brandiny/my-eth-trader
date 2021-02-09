@@ -11,70 +11,109 @@
 <body>
     <h1>{{title}}</h1>
 
-    <!-- live data retrival kline -->
-    <h3>Live Closing Price Data</h3>
-    <div id="kline"></div>
-
     <!-- data chart from trading view lightweight -->
-    <h3>Candlestick Chart</h3>
+    <br>
+    <h3>Candlestick Chart - {{ kline_interval }} - ETHEUR</h3>
     <div id="chart"></div>
+    <form action="">
+        <label for="kline_interval">Change Candlestick interval:</label>
+        <select name="kline_interval">
+            {% for interval in kline_dictionary %}
+            {% if interval == kline_interval %}
+            <option selected value="{{interval}}">{{interval}}</option>
+            {% else %}
+            <option value="{{interval}}">{{interval}}</option>
+            {% endif %}
 
-    <!-- currency purchase area -->
-    <div id="buy-currency">
-        {% with messages = get_flashed_messages() %}
-          {% if messages %}
-            {% for message in messages %}
-              <div
-                      style="position: inline-block; background: red; color: darkred; padding: 0.5em">{{
-                  message }}</div>
             {% endfor %}
-          {% endif %}
-        {% endwith %}
+        </select>
+        <input type="submit" value="Update chart">
+    </form>
+    <!-- balance -->
+    <br>
+    <p>{{address}}</p>
+    <h3>Ether Balance: {{ balance }}</h3>
 
-        <!-- buy form -->
-        <form action="/buy" method="post">
-            <input type="text" name='quantity' placeholder='e.g. 0.001'
-                   value='quantity' id="quantity">
-            <select id="symbol" name="symbol">
-                {% for symbol in symbols %}
-                <option>{{symbol}}</option>
-                {% endfor %}
-            </select>
-            <input type="submit" value="buy" name="buy">
-        </form>
+    <!--current price analysis -->
+    <br>
+    <p>NZD Value</p>
+    <h3>${{current_price_nzd}}</h3>
 
-    </div>
+    <br>
+    <p>Total Profit</p>
+    <h3>
+        {% if net_profit > 0 %}
+        +${{net_profit}},
+        {% else %}
+        ${{net_profit}},
+        {% endif %}
 
 
-    <div id="balances">
-        {% for i in balances %}
-        <tr><td>{{i['asset']}}</td></tr>
-        <tr><td>{{i['free']}}</td></tr>
-        <br>
-        {% endfor %}
-    </div>
+        {% if percentage_profit > 0 %}
+        +{{percentage_profit}}%
+        {% else %}
+        {{percentage_profit}}%
+        {% endif %}
 
-    <h3>Settings</h3>
-    <div id="settings">
-        <input type="checkbox" name="" id=""> RSI <input type="text" name="rsi_length"
-        id="rsi_length" placeholder="14">
-        <input type="text" name="rsi_oversold" id="rsi_oversold" placeholder='30'>
-        <input type="text" name="rsi_overbought" id="rsi_overbought" placeholder='70'>
-    </div>
 
+    </h3>
 
     <script>
-        //var binanceSocket = new WebSocket("wss://stream.binance
-       // .com:9443/ws/btcusdt@kline_5m");
-        //var klineDiv = document.getElementById("kline");
+        var chart = LightweightCharts.createChart(document.getElementById('chart'), {
+            width: 600,
+            height: 300,
+            layout: {
+                backgroundColor: '#000000',
+                textColor: 'rgba(255, 255, 255, 0.9)',
+            },
+            grid: {
+                vertLines: {
+                    color: 'rgba(197, 203, 206, 0.5)',
+                },
+                horzLines: {
+                    color: 'rgba(197, 203, 206, 0.5)',
+                },
+            },
+            crosshair: {
+                mode: LightweightCharts.CrosshairMode.Normal,
+            },
+            rightPriceScale: {
+                borderColor: 'rgba(197, 203, 206, 0.8)',
+            },
+            timeScale: {
+                borderColor: 'rgba(197, 203, 206, 0.8)',
+            },
+        });
 
-        /*binanceSocket.onmessage = function (event) {
-            var messageObject = JSON.parse(event.data);
-            console.log(messageObject);
-            klineDiv.append(messageObject.k.o + " ");
-        }*/
+        var candleSeries = chart.addCandlestickSeries({
+        upColor: '#26a69a',
+        downColor: '#ef5350',
+        borderDownColor: '#ef5350',
+        borderUpColor: '#26a69a',
+        wickDownColor: '#ef5350',
+        wickUpColor: '#26a69a',
+        });
 
+        candleSeries.applyOptions({
+            timeScale: {
+                rightOffset: 12,
+                barSpacing: 3,
+                fixLeftEdge: true,
+                lockVisibleTimeRangeOnResize: true,
+                rightBarStaysOnScroll: true,
+                borderVisible: false,
+                borderColor: '#fff000',
+                visible: true,
+                timeVisible: true,
+                secondsVisible: false,
+                tickMarkFormatter: (time, tickMarkType, locale) => {
+                    console.log(time, tickMarkType, locale);
+                    const year = LightweightCharts.isBusinessDay(time) ? time.year : new Date(time * 1000).getUTCFullYear();
+                    return String(year);
+                },
+            },
+        });
+        candleSeries.setData({{ processed_candlesticks }});
     </script>
-    <script src="{{ url_for('static', filename='chart.js') }}"></script>
 </body>
 </html>
