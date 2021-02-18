@@ -10,53 +10,61 @@
 </head>
 <body>
     <h1>{{title}}</h1>
+    
+    
+    <div id="container">
+        <div id="stats-container">
+            <p>{{address}}</p>
+            <h3>Ether Balance: {{ balance }}</h3>
+            <br>
+            <p>NZD Value</p>
+            <h3>${{current_price_nzd}}</h3>
+            <br>
+            <p>Total Profit</p>
+            <h3>
+                {% if net_profit > 0 %}
+                +${{net_profit}},
+                {% else %}
+                ${{net_profit}},
+                {% endif %}
 
-    <!-- data chart from trading view lightweight -->
-    <br>
-    <h3>Candlestick Chart - {{ kline_interval }} - ETHEUR</h3>
-    <div id="chart"></div>
-    <form action="">
-        <label for="kline_interval">Change Candlestick interval:</label>
-        <select name="kline_interval">
-            {% for interval in kline_dictionary %}
-            {% if interval == kline_interval %}
-            <option selected value="{{interval}}">{{interval}}</option>
-            {% else %}
-            <option value="{{interval}}">{{interval}}</option>
-            {% endif %}
 
-            {% endfor %}
-        </select>
-        <input type="submit" value="Update chart">
-    </form>
+                {% if percentage_profit > 0 %}
+                +{{percentage_profit}}%
+                {% else %}
+                {{percentage_profit}}%
+                {% endif %}
+            </h3>
+        </div>
+        <div id="chart">
+            <h3>Candlestick Chart - {{ kline_interval }} - ETHEUR</h3>
+<!--             
+            <form action="">
+                <label for="kline_interval">Change Candlestick interval:</label>
+                <select name="kline_interval">
+                    {% for interval in kline_dictionary %}
+                    {% if interval == kline_interval %}
+                    <option selected value="{{interval}}">{{interval}}</option>
+                    {% else %}
+                    <option value="{{interval}}">{{interval}}</option>
+                    {% endif %}
+                    {% endfor %}
+                </select>
+                <input type="submit" value="Update chart">
+            </form> -->
+        </div>
+    </div>
+    
+    
     <!-- balance -->
-    <br>
-    <p>{{address}}</p>
-    <h3>Ether Balance: {{ balance }}</h3>
+    
 
     <!--current price analysis -->
     <br>
-    <p>NZD Value</p>
-    <h3>${{current_price_nzd}}</h3>
+    
 
     <br>
-    <p>Total Profit</p>
-    <h3>
-        {% if net_profit > 0 %}
-        +${{net_profit}},
-        {% else %}
-        ${{net_profit}},
-        {% endif %}
-
-
-        {% if percentage_profit > 0 %}
-        +{{percentage_profit}}%
-        {% else %}
-        {{percentage_profit}}%
-        {% endif %}
-
-
-    </h3>
+    
 
     <script>
         var chart = LightweightCharts.createChart(document.getElementById('chart'), {

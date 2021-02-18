@@ -1,5 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,900&display=swap');
 * {
     font-family: Arial;
     margin: 0;
     padding: 0;
 }
+
+body {
+    background: black;
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#stats-container {
+    margin-bottom: 1em;
+}
+
