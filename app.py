@@ -55,7 +55,7 @@ def index():
         processed_candlesticks.append(candlestick)
 
     # Get current price
-    initial_investment = 1420.00
+    initial_investment = 1500.00
     current_price_euros = float(processed_candlesticks[-1]['close'])
     current_price_nzd = forex_object.convert('EUR', 'NZD', current_price_euros * balance)
     net_profit = current_price_nzd - initial_investment
