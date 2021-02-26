@@ -19,7 +19,7 @@ MACD_SIGNALPERIOD = 9
 
 # Change
 TRADE_SYMBOL = 'ETHEUR'
-BUY_QUANTITY = 0.014
+BUY_QUANTITY = 0.01
 SELL_QUANTITY = 0
 
 # Binance Websocket References are @
@@ -190,8 +190,11 @@ def on_message(ws, message):
             print('buy quanitity: ', BUY_QUANTITY)
             print('sell quanitity: ', SELL_QUANTITY)
             print(close > upperBand, close < lowerBand)
-            if (last_rsi>RSI_OVERBOUGHT and close>upperBand) or (
-                    close< STOP_LOSS ):
+
+            buy_condition = (macd[-1] - macdsignal[-1] > 0) and (macd[-2] < macdsignal[-2]) and closes[-1] > sma[-1]
+            sell_condition = (macdsignal[-1] - macd[-1] > 0) and (macd[-2] > macdsignal[-2]) and closes[-1] < sma[-1]
+            
+            if (sell_condition):
                 if in_position:
                     print("Overbought! Sell!, sell!, sell!")
                     order_succeeded = order(SIDE_SELL, SELL_QUANTITY,
@@ -201,7 +204,7 @@ def on_message(ws, message):
                 else:
                     print("It is overbought. We don't own any. Nothing to do.")
 
-            if last_rsi < RSI_OVERSOLD and close < lowerBand:
+            if buy_condition:
                 if in_position:
                     print("It is oversold, but you already own it and there is nothing to do")
                 else:

@@ -13,7 +13,7 @@ MACD_SIGNALPERIOD = 9
 # API Login keys are fetched from the config file
 client = Client(config.API_KEY, config.API_SECRET)
 
-klines = client.get_historical_klines("ETHEUR", Client.KLINE_INTERVAL_5MINUTE, "1 Jan, 2020 ")
+klines = client.get_historical_klines("ETHEUR", Client.KLINE_INTERVAL_1MINUTE, "1 Feb, 2021 ")
 highs = [float(k[2]) for k in klines]
 lows = [float(k[3]) for k in klines]
 closes = [float(k[4]) for k in klines]
@@ -68,8 +68,9 @@ for i in range(100, len(closes)):
     if rsi[i] < 50:
         LAST_RSI_BEAR_CROSS = 2
 
-    buy_condition = LAST_STOCH_BULL_CROSS >= 0 and LAST_MACD_BULL_CROSS >= 0 and LAST_MACD_BULL_CROSS > LAST_STOCH_BULL_CROSS
-    sell_condition = LAST_STOCH_BEAR_CROSS >= 0 and LAST_MACD_BEAR_CROSS >= 0 and LAST_MACD_BEAR_CROSS > LAST_STOCH_BEAR_CROSS
+    buy_condition = (macd[i] - macdsignal[i] > 0) and (macd[i-1] < macdsignal[i-1])  and closes[i] > sma[i]
+    sell_condition = (macdsignal[i] - macd[i] > 0) and (macd[i-1] > macdsignal[i-1]) and closes[i] < sma[i]
+
     # buy_condition = LAST_MACD_BULL_CROSS == 2
     # sell_condition = LAST_MACD_BEAR_CROSS == 2
 
