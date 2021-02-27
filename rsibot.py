@@ -124,7 +124,7 @@ def on_message(ws, message):
         lows.append(float(low))
 
         dump_data['closes'] = closes[:]
-        '''
+        
         # Calculate optimum BUY trade quantity
         current_balance = float(
             [i for i in client.get_account()['balances'] if
@@ -138,12 +138,6 @@ def on_message(ws, message):
              i['asset'] == 'ETH'][0]['free'])
         optimum_buy2 = float(current_balance2)
         SELL_QUANTITY = round(optimum_buy2, 5)
-
-        order_succeeded = order(SIDE_BUY, BUY_QUANTITY, TRADE_SYMBOL)
-
-        order_succeeded = order(SIDE_SELL, SELL_QUANTITY, TRADE_SYMBOL)
-        '''
-
 
         # If there is enough data to begin drawing conclusions (minimum 27)
         if len(closes) > RSI_PERIOD and len(closes) > MACD_SLOWPERIOD + 1:
@@ -185,7 +179,7 @@ def on_message(ws, message):
         
             # SMA =
             sma = talib.SMA(np_closes, timeperiod=10)
-            
+
             print('UPPERBAND: ', upperBand,'LOWERBAND: ', lowerBand)
             print('rsi is overbought: ', last_rsi > RSI_OVERBOUGHT)
             print('rsi is oversold: ', last_rsi < RSI_OVERSOLD)
