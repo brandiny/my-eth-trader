@@ -31,7 +31,7 @@ closes = []
 highs = []
 lows = []
 
-in_position = False            # In position = holding currency
+in_position = True            # In position = holding currency
 # macd_upwards = False        # MACD indicates upwards momentum
 # macd_downwards = False      # MACD indicates downwards momentum
 
