@@ -183,6 +183,9 @@ def on_message(ws, message):
             middleBand = float(middleBand[-1])
             lowerBand = float(lowerBand[-1])
         
+            # SMA =
+            sma = talib.SMA(np_closes, timeperiod=10)
+            
             print('UPPERBAND: ', upperBand,'LOWERBAND: ', lowerBand)
             print('rsi is overbought: ', last_rsi > RSI_OVERBOUGHT)
             print('rsi is oversold: ', last_rsi < RSI_OVERSOLD)
