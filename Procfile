@@ -1,1 +1,1 @@
-worker: python rsibot.py
+worker: python mainbot.py
